@@ -62,7 +62,36 @@
     -	Ja kāds no laukiem nav ievadīts, izvadīt par to paziņojumu
     -	Ja kāds no ievadītajiem parametriem neatbilst garumam tad tiek izvadīta kļūda.
     -	Ja profila attēls, kas tika augšupielādēts, ir lielāks par 2 MB, tiks izvadīts paziņojums, ka attēls ir pārāk liels.
+
+## Nefunkcionālās prasības
+
+1.	Mājas lapai jāatbalsta vismaz trīs valodas, ieskaitot latviešu.
+2.	Jānodrošina tīmekļa lietojumprogrammas pielāgošanas ekrāna izmēriem, kas mūsdienās tiek lietoti, lai to varētu izmantot uz dažādiem monitora izmēriem.
+3.	Dizainam ir jābūt saprotamam un patīkamam lietotājam.
+4.	Tekstam jābūt labi redzamam lietotājam un jāizskatās lakoniski kopā ar tīmekļa vietnes noformējumu.
+5.	Mājas lapā jābūt instrukcijai par konkrētu darbību veikšanu.
+6.	Mājas lapā jābūt iespējai lietotājiem atstāt atsauksmes un komentārus.
+7.	Lietotājam profilu jabut saprotamam un ērtam izmantošānā.
+8.	Jebkura ievades rinda jāaizsargā pret SQL pieprasījumu ievadi (SQL injekcijām).
+9.	Mājaslapai jāstrādā ātri, apstrādājot visu informāciju.
+10.	Darbinieka lapai jabut viegli uztvēramai
+
       
 Sistēmas ekrānu skices:
-* ●	Galvena lapas skice (skat. 1 att.)
+* Galvena lapas skice (skat. 1 att.)
 
+  ![1 att.](https://media.discordapp.net/attachments/1153547180360073270/1210635499891331112/image.png?ex=65eb472b&is=65d8d22b&hm=73fc1855ae5149fdbf9b56b990c828ed119439dab5e7d63f9454dbd9900ac642&=&format=webp&quality=lossless "1 att.")
+
+1.att. Galvena lapas skices attēls 
+
+* Darbinieka lapas skice.  (skat. 2 att.)
+
+  ![2 att.](https://media.discordapp.net/attachments/1153547180360073270/1210635545965756448/image.png?ex=65eb4736&is=65d8d236&hm=4bb23e9f765994425f0e1745028efe655ba372377b68a2ed945edeb9dc0755f0&=&format=webp&quality=lossless&width=834&height=671 "2 att.")
+
+2.att. Darbinieka lapas skices attēls
+
+* Lietotāja komentāru sistēmas skice (skat. 3. att.)
+
+  ![3 att.](https://media.discordapp.net/attachments/1153547180360073270/1210635613041070161/image.png?ex=65eb4746&is=65d8d246&hm=5370b9cb004369ef3aa60e0aedf5f5b316d3d2671f03dffa1e104aab4238cf28&=&format=webp&quality=lossless&width=825&height=671 "3 att.")
+ 
+3.att. Komentāru sistēmas skices attēls
