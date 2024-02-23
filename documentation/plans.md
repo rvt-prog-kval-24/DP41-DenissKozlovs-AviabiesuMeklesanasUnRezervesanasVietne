@@ -8,4 +8,4 @@
 
 4)Nostiprināt pasūtījumu dzēšanas sistēmu administratoram (11.-12. martā).
 
-5) Izlabot pasūtījumu dzēšanas sistēmu lietotājam (13.-14. marts).
+5)Izlabot pasūtījumu dzēšanas sistēmu lietotājam (13.-14. marts).
