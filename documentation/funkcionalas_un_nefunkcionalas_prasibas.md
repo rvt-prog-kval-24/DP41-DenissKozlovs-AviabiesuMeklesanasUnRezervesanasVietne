@@ -63,3 +63,6 @@
     -	Ja kāds no ievadītajiem parametriem neatbilst garumam tad tiek izvadīta kļūda.
     -	Ja profila attēls, kas tika augšupielādēts, ir lielāks par 2 MB, tiks izvadīts paziņojums, ka attēls ir pārāk liels.
       
+Sistēmas ekrānu skices:
+* ●	Galvena lapas skice (skat. 1 att.)
+
