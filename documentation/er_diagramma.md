@@ -1,6 +1,6 @@
 # ER-diagramma
 
-![DP41 Deniss Kozlovs ER-diagramma](https://media.discordapp.net/attachments/1153547180360073270/1210631270803963985/image.png?ex=65eb433b&is=65d8ce3b&hm=662f2d8c200118551f7d811d698bc17b3e47da768b87292ccbaddedf865748a8&=&format=webp&quality=lossless&width=639&height=671 "DP41 Deniss Kozlovs ER-diagramma")
+![DP41 Deniss Kozlovs ER-diagramma](https://media.discordapp.net/attachments/1153547180360073270/1224407811237216378/image.png?ex=661d61a2&is=660aeca2&hm=ebd3414633fe674f88651dd19ec536c547245036379363196dfea9edd34e21b0&=&format=webp&quality=lossless&width=924&height=671 "DP41 Deniss Kozlovs ER-diagramma")
 
 Sistēmas ER-modelis sastāv no 8 entītijām, kas nodrošina pamat informācijas uzglabāšanu un apstrādi. Tie ir: 
 * “rezervācijas” – šī entītija parāda katra lietotāja rezervācijas, kam tās ir. Katram lietotājam ir unikāls ID, ar kuru ir saistīta viņa rezervācija, kurai arī ir unikāls ID.
