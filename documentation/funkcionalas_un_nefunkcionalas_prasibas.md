@@ -80,18 +80,18 @@
 Sistēmas ekrānu skices:
 * Galvena lapas skice (skat. 1 att.)
 
-  ![1 att.](https://media.discordapp.net/attachments/1153547180360073270/1210635499891331112/image.png?ex=65eb472b&is=65d8d22b&hm=73fc1855ae5149fdbf9b56b990c828ed119439dab5e7d63f9454dbd9900ac642&=&format=webp&quality=lossless "1 att.")
+  ![1 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409416137314355/image.png?ex=661d6321&is=660aee21&hm=a5f15b68538e210cbf06be4735935dcb76678c7d7d7ec95302205badf967b11b&=&format=webp&quality=lossless "1 att.")
 
 1.att. Galvena lapas skices attēls 
 
 * Darbinieka lapas skice.  (skat. 2 att.)
 
-  ![2 att.](https://media.discordapp.net/attachments/1153547180360073270/1210635545965756448/image.png?ex=65eb4736&is=65d8d236&hm=4bb23e9f765994425f0e1745028efe655ba372377b68a2ed945edeb9dc0755f0&=&format=webp&quality=lossless&width=834&height=671 "2 att.")
+  ![2 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409437448700026/image.png?ex=661d6326&is=660aee26&hm=0d681934ae807cddbf327f008631af7630b3e82f0fc8a28126a19af5e6464df2&=&format=webp&quality=lossless&width=834&height=671 "2 att.")
 
 2.att. Darbinieka lapas skices attēls
 
 * Lietotāja komentāru sistēmas skice (skat. 3. att.)
 
-  ![3 att.](https://media.discordapp.net/attachments/1153547180360073270/1210635613041070161/image.png?ex=65eb4746&is=65d8d246&hm=5370b9cb004369ef3aa60e0aedf5f5b316d3d2671f03dffa1e104aab4238cf28&=&format=webp&quality=lossless&width=825&height=671 "3 att.")
+  ![3 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409479383224423/image.png?ex=661d6330&is=660aee30&hm=a91ae196bc345223fa9348591ca2bf9a15fe8a093b1c897eff63608d10b7fb62&=&format=webp&quality=lossless&width=825&height=671 "3 att.")
  
 3.att. Komentāru sistēmas skices attēls
