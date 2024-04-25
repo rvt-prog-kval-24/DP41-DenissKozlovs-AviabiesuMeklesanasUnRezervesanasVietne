@@ -92,6 +92,6 @@ Sistēmas ekrānu skices:
 
 * Lietotāja komentāru sistēmas skice (skat. 3. att.)
 
-  ![3 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409479383224423/image.png?ex=661d6330&is=660aee30&hm=a91ae196bc345223fa9348591ca2bf9a15fe8a093b1c897eff63608d10b7fb62&=&format=webp&quality=lossless&width=825&height=671 "3 att.")
+  ![3 att.](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/3.png "3 att.")
  
 3.att. Komentāru sistēmas skices attēls
