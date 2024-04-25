@@ -80,7 +80,7 @@
 Sistēmas ekrānu skices:
 * Galvena lapas skice (skat. 1 att.)
 
-  ![1 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409416137314355/image.png?ex=661d6321&is=660aee21&hm=a5f15b68538e210cbf06be4735935dcb76678c7d7d7ec95302205badf967b11b&=&format=webp&quality=lossless "1 att.")
+  ![1 att.](documentation/1.png "1 att.")
 
 1.att. Galvena lapas skices attēls 
 
