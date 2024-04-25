@@ -86,7 +86,7 @@ Sistēmas ekrānu skices:
 
 * Admina lapas skice.  (skat. 2 att.)
 
-  ![2 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409437448700026/image.png?ex=661d6326&is=660aee26&hm=0d681934ae807cddbf327f008631af7630b3e82f0fc8a28126a19af5e6464df2&=&format=webp&quality=lossless&width=834&height=671 "2 att.")
+  ![2 att.](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/2.png "2 att.")
 
 2.att. Admina lapas skices attēls
 
