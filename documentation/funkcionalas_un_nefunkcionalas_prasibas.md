@@ -23,7 +23,7 @@
     -	Ja komentārs nav pieejams, lietotājs to nevarēs dzēst.
       
 6.	Jānodrošina iespēja atstāt komentārus adminam.
-    -	Ja darbinieks nav iegājis sistēmā, viņš nevarēs atstāt komentārus vietnē.
+    -	Ja admins nav iegājis sistēmā, viņš nevarēs atstāt komentārus vietnē.
     -	Ja komentāra garums pārsniedz pieļaujamo parametru, tiks izvadīta kļūda.
       
 7.	Jānodrošina iespēja dzēst visus lietotāja komentārus adminam.
@@ -74,7 +74,7 @@
 7.	Lietotājam profilu jabut saprotamam un ērtam izmantošānā.
 8.	Jebkura ievades rinda jāaizsargā pret SQL pieprasījumu ievadi (SQL injekcijām).
 9.	Mājaslapai jāstrādā ātri, apstrādājot visu informāciju.
-10.	Darbinieka lapai jabut viegli uztvēramai
+10.	Admina lapai jabut viegli uztvēramai
 
       
 Sistēmas ekrānu skices:
@@ -84,11 +84,11 @@ Sistēmas ekrānu skices:
 
 1.att. Galvena lapas skices attēls 
 
-* Darbinieka lapas skice.  (skat. 2 att.)
+* Admina lapas skice.  (skat. 2 att.)
 
   ![2 att.](https://media.discordapp.net/attachments/1153547180360073270/1224409437448700026/image.png?ex=661d6326&is=660aee26&hm=0d681934ae807cddbf327f008631af7630b3e82f0fc8a28126a19af5e6464df2&=&format=webp&quality=lossless&width=834&height=671 "2 att.")
 
-2.att. Darbinieka lapas skices attēls
+2.att. Admina lapas skices attēls
 
 * Lietotāja komentāru sistēmas skice (skat. 3. att.)
 
