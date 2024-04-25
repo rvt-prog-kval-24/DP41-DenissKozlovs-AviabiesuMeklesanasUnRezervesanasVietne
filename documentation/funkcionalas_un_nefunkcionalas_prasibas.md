@@ -80,7 +80,7 @@
 Sistēmas ekrānu skices:
 * Galvena lapas skice (skat. 1 att.)
 
-  ![1 att.](documentation/1.png "1 att.")
+  ![1 att.](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/1.png "1 att.")
 
 1.att. Galvena lapas skices attēls 
 
