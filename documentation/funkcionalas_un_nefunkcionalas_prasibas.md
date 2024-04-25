@@ -22,15 +22,15 @@
     -	Ja lietotājs nav iegājis sistēmā, viņš nevarēs atstāt komentārus vietnē.
     -	Ja komentārs nav pieejams, lietotājs to nevarēs dzēst.
       
-6.	Jānodrošina iespēja atstāt komentārus darbiniekam.
+6.	Jānodrošina iespēja atstāt komentārus adminam.
     -	Ja darbinieks nav iegājis sistēmā, viņš nevarēs atstāt komentārus vietnē.
     -	Ja komentāra garums pārsniedz pieļaujamo parametru, tiks izvadīta kļūda.
       
-7.	Jānodrošina iespēja dzēst visus lietotāja komentārus darbiniekam.
-    -	Ja neviens lietotājs nav atstājis komentārus, darbiniekam tiks izvadīta ziņa, ka nav pieejami komentāri.
+7.	Jānodrošina iespēja dzēst visus lietotāja komentārus adminam.
+    -	Ja neviens lietotājs nav atstājis komentārus, adminam tiks izvadīta ziņa, ka nav pieejami komentāri.
       
-8.	Jānodrošina iespēja dzēst visus lietotāja komentārus darbiniekam.
-    -	Ja neviens lietotājs nav atstājis komentārus, darbiniekam tiks izvadīta ziņa, ka nav pieejami komentāri
+8.	Jānodrošina iespēja dzēst visus lietotāja komentārus adminam.
+    -	Ja neviens lietotājs nav atstājis komentārus, adminam tiks izvadīta ziņa, ka nav pieejami komentāri
     -	Ja komentāra garums pārsniedz pieļaujamo parametru, tiks izvadīta kļūda.
       
 9.	Jānodrošina iespēja pasūtīt bileti. 
@@ -41,7 +41,7 @@
     -	Ja kāds no laukiem nav ievadīts, izvadīt par to paziņojumu
     -	Ja kāds no ievadītajiem parametriem neatbilst garumam tad tiek izvadīta kļūda.
       
-11.	Jānodrošina iespēja pievienot jaunas lidojumus adminam.
+11.	Jānodrošina iespēja rediģēt jaunas lidojumus adminam.
     -	Ja kāds no laukiem nav ievadīts, izvadīt par to paziņojumu
     -	Ja kāds no ievadītajiem parametriem neatbilst garumam tad tiek izvadīta kļūda.
       
