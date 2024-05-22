@@ -58,11 +58,17 @@
     -	Salīdzināt ievadīto lietotāja vārdu un citu informāciju ar sistēmā jau eksistējošo lietotāju vārdiem un citai  informācijai, izvadīt paziņojumu, ja tie sakrīt.
     -	Ja profila attēls, kas tika augšupielādēts, ir lielāks par 2 MB, tiks izvadīts paziņojums, ka attēls ir pārāk liels.
       
-15.	Jānodrošina iespēja pievienot lidojuma  kartes uz galvena ekrana.
+15.	Jānodrošina iespēja pievienot bērnus lietotājam.
     -	Ja kāds no laukiem nav ievadīts, izvadīt par to paziņojumu
     -	Ja kāds no ievadītajiem parametriem neatbilst garumam tad tiek izvadīta kļūda.
-    -	Ja profila attēls, kas tika augšupielādēts, ir lielāks par 2 MB, tiks izvadīts paziņojums, ka attēls ir pārāk liels.
+    -	Ja bērna sēdeklītis nav izvēlēts, tiek parādīts paziņojums, ka bērna sēdeklītis ir jāizvēlas.
 
+16.	Jānodrošina iespēja dzēst profilu lietotājam.
+    -	Ja tiek nospiesta dzēšanas poga, tiek parādīts operācijas apstiprinājums.
+      
+17.	Jānodrošina iespēja dzēst bērnus lietotājam.
+    -	Ja bērna nav datubāzē, tad būs izvadīta kļūda.
+      
 ## Nefunkcionālās prasības
 
 1.	Mājas lapai jāatbalsta vismaz trīs valodas, ieskaitot latviešu.
