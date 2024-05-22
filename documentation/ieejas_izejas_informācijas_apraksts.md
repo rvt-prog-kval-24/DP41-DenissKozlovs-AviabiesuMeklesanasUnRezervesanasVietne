@@ -3,10 +3,10 @@
 
 Sistēmā tiks nodrošināta šādas ieejas informācijas apstrāde.
 1. Informācija par lietotājam sastāvēs no šādiem datiem.
-   - “lietotājvards” – lietotāja lietotājvards – burtu un ciparu teksts ar izmēru līdz 255 rakstzīmēm. Ievadījis lietotājs no tastatūras (piemēram “Deniss123”).
-   - “e-pasts” – lietotāja e-pasts – burtu un ciparu teksts ar izmēru līdz 255 rakstzīmēm . Ievadījis lietotājs no tastatūras (piemēram “pasts@gmail.com”).
-   - “parole”– lietotāja parole – burtu un ciparu teksts ar izmēru līdz 255 rakstzīmēm . Ievadījis lietotājs no tastatūras (piemēram “A213danteTT21”).
-   - “ierakstīšanas datums”– datums kad ieraksts tika izveidots datu bāzē – burtu un ciparu teksts ar izmēru līdz 32 rakstzīmēm . Izveido datu bāze (piemēram “2023-04-29 18:54:51”).
+   -  “lietotājvards” – lietotāja lietotājvards – burtu un ciparu teksts ar izmēru līdz 255 rakstzīmēm. Ievadījis lietotājs no tastatūras (piemēram “Deniss123”).
+   -  “e-pasts” – lietotāja e-pasts – burtu un ciparu teksts ar izmēru līdz 255 rakstzīmēm . Ievadījis lietotājs no tastatūras (piemēram “pasts@gmail.com”).
+   -  “parole”– lietotāja parole – burtu un ciparu teksts ar izmēru līdz 255 rakstzīmēm . Ievadījis lietotājs no tastatūras (piemēram “A213danteTT21”).
+   -  “ierakstīšanas datums”– datums kad ieraksts tika izveidots datu bāzē – burtu un ciparu teksts ar izmēru līdz 32 rakstzīmēm . Izveido datu bāze (piemēram “2023-04-29 18:54:51”).
 2. Informācija par lietotāja avatāru  sastāvēs no šādiem datiem.
    -	“profila attēls” – lietotāja profila attēls – burtu un ciparu teksts bez izmera ierobežojumu. Ievadījis lietotājs no tastatūras (piemēram “../img/img.png”).
    -	“attela tips” – piešķirtais attela tips (png,jpg) – burtu un ciparu teksts bez izmera ierobežojumu . Izveido datu bāze (piemēram “png, jpg”).
