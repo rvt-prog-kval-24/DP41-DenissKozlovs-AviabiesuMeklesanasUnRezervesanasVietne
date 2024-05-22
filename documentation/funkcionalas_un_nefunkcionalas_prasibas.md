@@ -71,16 +71,17 @@
       
 ## Nefunkcionālās prasības
 
-1.	Mājas lapai jāatbalsta vismaz trīs valodas, ieskaitot latviešu.
-2.	Jānodrošina tīmekļa lietojumprogrammas pielāgošanas ekrāna izmēriem, kas mūsdienās tiek lietoti, lai to varētu izmantot uz dažādiem monitora izmēriem.
-3.	Dizainam ir jābūt saprotamam un patīkamam lietotājam.
-4.	Tekstam jābūt labi redzamam lietotājam un jāizskatās lakoniski kopā ar tīmekļa vietnes noformējumu.
-5.	Mājas lapā jābūt instrukcijai par konkrētu darbību veikšanu.
-6.	Mājas lapā jābūt iespējai lietotājiem atstāt atsauksmes un komentārus.
-7.	Lietotājam profilu jabut saprotamam un ērtam izmantošānā.
-8.	Jebkura ievades rinda jāaizsargā pret SQL pieprasījumu ievadi (SQL injekcijām).
-9.	Mājaslapai jāstrādā ātri, apstrādājot visu informāciju.
-10.	Admina lapai jabut viegli uztvēramai
+
+1.	Dizainam ir jābūt saprotamam un patīkamam lietotājam.
+2.	Tekstam jābūt labi redzamam lietotājam un jāizskatās lakoniski kopā ar tīmekļa vietnes noformējumu.
+3.	Mājas lapā jābūt instrukcijai par konkrētu darbību veikšanu.
+4.	Mājas lapā jābūt iespējai lietotājiem atstāt atsauksmes un komentārus.
+5.	Lietotājam profilu jabut saprotamam un ērtam izmantošānā.
+6.	Jebkura ievades rinda jāaizsargā pret SQL pieprasījumu ievadi (SQL injekcijām).
+7.	Mājaslapai jāstrādā ātri, apstrādājot visu informāciju.
+8.	Admina lapai jabut viegli uztvēramai
+9.	Adminam jābūt iespējai mainīt visus nepieciešamos datus.
+10.	Vajadzības gadījumā lietotājam jābūt iespējai atcelt pakalpojumu.
 
       
 Sistēmas ekrānu skices:
