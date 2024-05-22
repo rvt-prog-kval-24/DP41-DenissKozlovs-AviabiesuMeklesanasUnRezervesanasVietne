@@ -7,6 +7,6 @@ Sistēmai ir jāizpilda sekojošās funkcionalitātes (skat. 1. att.) :
 * Lietotājs var izveidot savu profilu vietnē.
 * Lietotājs var atstāt komentārus vietnē. Šīs funkcijas ļaus izveidot pilnīgu sistēmu aviobiļešu pārdošanai un to pārvaldībai gan no klientu, gan administrators puses
 
-![DP41 Deniss Kozlovs use-case-diagramma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/use_case_diag.png "DP41 Deniss Kozlovs use-case-diagramma")
+![DP41 Deniss Kozlovs use-case-diagramma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/use_case_diag%20(2).png "DP41 Deniss Kozlovs use-case-diagramma")
 
 1.att. Lietojumgadījuma diagramma
