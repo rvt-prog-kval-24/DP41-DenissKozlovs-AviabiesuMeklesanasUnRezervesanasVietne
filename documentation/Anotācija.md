@@ -1,6 +1,6 @@
 # Anotācija
 
-Šī kvalifikācijas darba tēma ir tīmekļa vietnes izstrāde aviobiļešu pārdošanai. Projekta galvenais mērķis bija izveidot tīmekļa lietojumprogrammu, kas ļauj lietotājiem meklēt un iegādāties aviobiļetes tiešsaistē. Projekta īstenošanai tika izmantotas šādas programmēšanas valodas: JavaScript klienta daļai, PHP servera loģikai un CSS lapas stilizācijai. Izstrādes procesā tika izmantota Visual Studio Code izstrādes vide un XAMPP serveris. Papildus tika izmantots PHPMailer pasta paziņojumu nosūtīšanai un fpdf PDF dokumentu ģenerēšanai.
+Šī kvalifikācijas darba tēma ir tīmekļa vietnes izstrāde aviabiļešu pārdošanai. Projekta galvenais mērķis bija izveidot tīmekļa lietojumprogrammu, kas ļauj lietotājiem meklēt un iegādāties aviabiļetes tiešsaistē. Projekta īstenošanai tika izmantotas šādas programmēšanas valodas: JavaScript klienta daļai, PHP servera loģikai un CSS lapas stilizācijai. Izstrādes procesā tika izmantota Visual Studio Code izstrādes vide un XAMPP serveris. Papildus tika izmantots PHPMailer pasta paziņojumu nosūtīšanai un fpdf PDF dokumentu ģenerēšanai.
 
 Projekta dokumentācijā ir 28 lappuses, kurās sīki aprakstīti visi sistēmas izstrādes un darbības posmi. Dokumentācijā ir 12 shēmas, no kurām 3 ir vietnes lapu skices. Paskaidrojuma rakstā ir izklāstītas arī funkcionālās prasības, sistēmas arhitektūra, datubāzes apraksts, lietotāja saskarnes un sistēmas testēšana.
 
