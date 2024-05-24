@@ -1,6 +1,6 @@
 # ER-diagramma
 
-![DP41 Deniss Kozlovs ER-diagramma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/er_diagram.png "DP41 Deniss Kozlovs ER-diagramma")
+![DP41 Deniss Kozlovs ER-diagramma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/er_diagram.png "DP41 Deniss Kozlovs ER-diagramma")
 
 Sistēmas ER-modelis sastāv no 9 entītijām, kas nodrošina pamat informācijas uzglabāšanu un apstrādi. Tie ir: 
 * “Pieejamais datums” – šī entītija parāda visus pieejamos datumus, kurus var rezervēt konkrētiem lidojumiem, un cenas konkrētiem datumiem. Katram datumam ir savs unikāls ID.
