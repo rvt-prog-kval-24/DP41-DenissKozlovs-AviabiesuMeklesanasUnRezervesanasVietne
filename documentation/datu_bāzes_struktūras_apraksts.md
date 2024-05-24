@@ -168,3 +168,4 @@ Dati fiziskajā līmenī tiek strukturizēti un uzglabāti, izmantojot shēmu ar
 
 ![DP41 Deniss Kozlovs Datubāzes_fiziskās_struktūras_shēma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png "DP41 Deniss Kozlovs Datubāzes_fiziskās_struktūras_shēma")
 
+5.1.att Datubāzes fiziskās struktūras shēma
