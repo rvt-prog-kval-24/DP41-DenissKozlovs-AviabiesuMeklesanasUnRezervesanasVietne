@@ -164,8 +164,8 @@ Tabulas “airflight_description” struktūra
 | 7   | price           | varchar  | 5      | Biļetes cena                                                   |
 
 
-Dati fiziskajā līmenī tiek strukturizēti un uzglabāti, izmantojot shēmu ar saitēm (skat. 5.1. attēlu). Šāda struktūra nodrošina ērtu un efektīvu datu uzglabāšanu, tāpat šāda struktūra ļauj ietaupīt vietu tabulās, kas savukārt samazina sistēmas slodzi.
+Dati fiziskajā līmenī tiek strukturizēti un uzglabāti, izmantojot shēmu ar saitēm (skat. 13. attēlu). Šāda struktūra nodrošina ērtu un efektīvu datu uzglabāšanu, tāpat šāda struktūra ļauj ietaupīt vietu tabulās, kas savukārt samazina sistēmas slodzi.
 
 ![DP41 Deniss Kozlovs Datubāzes_fiziskās_struktūras_shēma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png "DP41 Deniss Kozlovs Datubāzes_fiziskās_struktūras_shēma")
 
-5.1.att Datubāzes fiziskās struktūras shēma
+13.att Datubāzes fiziskās struktūras shēma
