@@ -1,5 +1,5 @@
 # DATU STRUKTŪRAS APRAKSTS
-Datu bāze sastāv no 9 tabulām, kurās ir informācija par lietotāju, katru lietotāja komentāru, lietotāja pasūtījumiem, aviakompānijas informāciju un biļetēm. Zemāk ir attēlota tabulu attiecību shēma (Skat.2 attēlu).
+Datu bāze sastāv no 9 tabulām, kurās ir informācija par lietotāju, katru lietotāja komentāru, lietotāja pasūtījumiem, aviakompānijas informāciju un biļetēm. "er_diagramma.md" ir attēlota tabulu attiecību shēma (Skat.14 attēlu).
 *	Tabulā "airports/airlines" tiek glabāti dati par lidojumiem. 
 *	Tabulā "tickets" tiek glabāti dati par biļetēm. 
 *	Tabulā "children" tiek glabāti dati par lietotāja bērniem. 
