@@ -33,14 +33,14 @@ Datu apstrādes procesi:
 
 9.att. Autorizācijas datu apstrādes  plūsmu diagramma
 
-*	Autorizācijas datu apstrāde - šīs operācijas laikā (skat. 10. attēlu) sistēma pārbauda lietotāja sesijas esamību, tiek apstrādāti lietotāja autorizācijas dati, ar kuru palīdzību lietotājs piesakās savā esošajā profilā. Lai lietotājs varētu autorizēties, datiem ir jāiztur šādas pārbaudes: derīga garuma, aizliegto rakstzīmju un identitātes pārbaude ar datubāzes datiem. Ja tie nav identiski, autorizācija nenotiek.
+*	Talruņa maiņa - šīs operācijas laikā (skat. 10. attēlu) sistēma pārbauda lietotāja sesijas esamību, lietotājs nomaina esošo talruņa numuru pret jaunu. Lai jaunā talruņa tiktu saglabāta datubāzē, tai ir sekmīgi jāiztur pašreizējās talruņa atbilstības pārbaudes, kā arī aizliegto rakstzīmju un iestatītā garuma atbilstības pārbaudes ka arī numuram jāiztur datubāzes atbilstības pārbaude .
 
 ![DP41 Deniss Kozlovs Datu plūsmu diagramma 6](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/plusmuDiag6.png "DP41 Deniss Kozlovs Autorizācijas datu apstrādes  plūsmu diagramma") 
 
-10.att. Autorizācijas datu apstrādes  plūsmu diagramma
+10.att. Talruņa maiņas plūsmu diagramma
 
-*	Autorizācijas datu apstrāde - šīs operācijas laikā (skat. 11. attēlu) sistēma pārbauda lietotāja sesijas esamību, tiek apstrādāti lietotāja autorizācijas dati, ar kuru palīdzību lietotājs piesakās savā esošajā profilā. Lai lietotājs varētu autorizēties, datiem ir jāiztur šādas pārbaudes: derīga garuma, aizliegto rakstzīmju un identitātes pārbaude ar datubāzes datiem. Ja tie nav identiski, autorizācija nenotiek.
+*	Vietas izvēle - šīs operācijas laikā (skat. 11. attēlu) sistēma pārbauda lietotāja sesijas esamību, tiek apstrādāti lietotājam izvelēta vieta un vietas cēna.Ja kāda iemesla dēļ lietotāja vieta nav izvēlēta vai ir kādas kļūdas, biļešu un kuponu dati netiks pārsūtīti uz datubāzi.  Ja viss notiks bez problēmām, dati tiks pārnesti uz datubāzi. 
 
-![DP41 Deniss Kozlovs Datu plūsmu diagramma 7]( "DP41 Deniss Kozlovs Autorizācijas datu apstrādes  plūsmu diagramma") 
+![DP41 Deniss Kozlovs Datu plūsmu diagramma 7](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/plusmuDiag7.png "DP41 Deniss Kozlovs Autorizācijas datu apstrādes  plūsmu diagramma") 
 
-11.att. Autorizācijas datu apstrādes  plūsmu diagramma
+11.att. Sēdvietas izvēles plūsmu diagramma
