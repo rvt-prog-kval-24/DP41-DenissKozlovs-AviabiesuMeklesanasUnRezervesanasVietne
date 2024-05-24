@@ -1,7 +1,7 @@
 # Funkcionālas dekompozīcijas diagramma
 ## Sistēmas struktūras modelis
 ### Sistēmas arhitektūra
-Sistēmu veido četras apakšsistēmas: biļešu datu apstrādes, personas konta datu apstrāde, filtrēšanas datu apstrāde, lietotāja datu apstrāde. (skat. 1. att.)
+Sistēmu veido četras apakšsistēmas: biļešu datu apstrādes, personas konta datu apstrāde, filtrēšanas datu apstrāde, lietotāja datu apstrāde. (skat. 1. att.) Funkcionālā sistēmas modeļa sadaļā tiks aprakstītas apakšsistēmas funkcijas, kuras tika izceltas oranžā krāsā.
 
 ![DP41 Deniss Kozlovs Funkcionālas dekompozīcijas diagramma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/funkc_dekomp_diagram.png "DP41 Deniss Kozlovs Funkcionālas dekompozīcijas diagramma")
 
