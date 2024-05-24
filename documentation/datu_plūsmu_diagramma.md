@@ -1,6 +1,6 @@
 # Datu plūsmu diagrammas 
-##Funkcionālais sistēmas modelis
-###Datu plūsmu modelis
+## Funkcionālais sistēmas modelis
+### Datu plūsmu modelis
 
 Datu apstrādes procesi:
 *	Paroles maiņa - šīs operācijas laikā (skat. 5. att.) lietotājs nomaina esošo paroli pret jaunu. Lai jaunā parole tiktu saglabāta datubāzē, tai ir sekmīgi jāiztur pašreizējās paroles atbilstības pārbaudes, kā arī aizliegto rakstzīmju un iestatītā garuma atbilstības pārbaudes.
