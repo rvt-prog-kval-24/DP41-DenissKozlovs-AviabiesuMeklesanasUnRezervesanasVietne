@@ -5,7 +5,7 @@
 Datu apstrādes procesi:
 *	Paroles maiņa - šīs operācijas laikā (skat. 5. att.) lietotājs nomaina esošo paroli pret jaunu. Lai jaunā parole tiktu saglabāta datubāzē, tai ir sekmīgi jāiztur pašreizējās paroles atbilstības pārbaudes, kā arī aizliegto rakstzīmju un iestatītā garuma atbilstības pārbaudes.
 
-![DP41 Deniss Kozlovs Datu plūsmu diagramma 1](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/plusmuDiag1.png "DP41 Deniss Kozlovs Paroles maiņas  plūsmu diagramm")
+![DP41 Deniss Kozlovs Datu plūsmu diagramma 1](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/plusmudiagr1.png "DP41 Deniss Kozlovs Paroles maiņas  plūsmu diagramm")
 
 5.att. Paroles maiņas  plūsmu diagramma
 
