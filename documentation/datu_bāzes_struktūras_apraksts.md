@@ -1,14 +1,14 @@
 # DATU STRUKTŪRAS APRAKSTS
 Datu bāze sastāv no 9 tabulām, kurās ir informācija par lietotāju, katru lietotāja komentāru, lietotāja pasūtījumiem, aviokompānijas informāciju un biļetēm. Zemāk ir attēlota tabulu attiecību shēma (Skat.2 attēlu).
-●	Tabulā "airports/airlines" tiek glabāti dati par lidojumiem. 
-●	Tabulā "tickets" tiek glabāti dati par biļetēm. 
-●	Tabulā "children" tiek glabāti dati par lietotāja bērniem. 
-●	Tabulā "users" tiek glabāti dati par lietotājiem. 
-●	Tabulā "comments" tiek glabāti dati par lietotāja komentāriem. 
-●	Tabulā "profile_images" tiek glabāti dati par lietotāja profila attēliem. 
-●	Tabulā "user_details" tiek glabāta lietotāju personiskā informācija.
-●	Tabulā "acessabledata" tiek glabāta informācija par konkrētajām datumām un laikā pieejamam lidojumam.
-●	Tabulā "airflight_description" tiek glabāta informācija par lidojumu aprakstu.
+*	Tabulā "airports/airlines" tiek glabāti dati par lidojumiem. 
+*	Tabulā "tickets" tiek glabāti dati par biļetēm. 
+*	Tabulā "children" tiek glabāti dati par lietotāja bērniem. 
+*	Tabulā "users" tiek glabāti dati par lietotājiem. 
+*	Tabulā "comments" tiek glabāti dati par lietotāja komentāriem. 
+*	Tabulā "profile_images" tiek glabāti dati par lietotāja profila attēliem. 
+*	Tabulā "user_details" tiek glabāta lietotāju personiskā informācija.
+*	Tabulā "acessabledata" tiek glabāta informācija par konkrētajām datumām un laikā pieejamam lidojumam.
+* Tabulā "airflight_description" tiek glabāta informācija par lidojumu aprakstu.
 
 Tabula “airports/airlines” ir saistīta ar tabulam “airflight_description”,“tickets” un “acessabledata”.
 
