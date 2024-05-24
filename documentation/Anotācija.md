@@ -4,7 +4,7 @@
 
 Projekta dokumentācijā ir 28 lappuses, kurās sīki aprakstīti visi sistēmas izstrādes un darbības posmi. Dokumentācijā ir 12 shēmas, no kurām 3 ir vietnes lapu skices. Paskaidrojuma rakstā ir izklāstītas arī funkcionālās prasības, sistēmas arhitektūra, datubāzes apraksts, lietotāja saskarnes un sistēmas testēšana.
 
-Kopējais paskaidrojuma raksta lappušu skaits ir 28. Ir iekļauti 12 attēli, kas ilustrē dažādus projekta aspektus. Dokumentācijā iekļautas arī tabulas, grafiki un diagrammas, kas palīdz labāk izprast sistēmas struktūru un darbību. Pielikumos ir avota kods, ziņojumu paraugi un cita saistītā informācija.
+Kopējais paskaidrojuma raksta lappušu skaits ir 28. Iekļauti 12 attēli, kas ilustrē dažādus projekta aspektus. Dokumentācijā iekļautas arī tabulas, kas palīdz labāk izprast sistēmas struktūru un darbību. 
 
 
 # Anotation
@@ -13,4 +13,4 @@ The topic of this qualification work is the development of a website for the sal
 
 The project documentation includes 28 pages that describe in detail all stages of the system development and operation. The documentation contains 12 schemes, 3 of which are sketches of the site pages. The explanatory note also presents functional requirements, system architecture, database description, user interfaces and system testing.
 
-The total number of pages in the explanatory note is 28. 12 figures are included which illustrate various aspects of the project. The documentation also includes tables, graphs, and charts that help to better understand the structure and operation of the system. The appendices contain source code, sample reports and other related information.
+The total number of pages in the explanatory note is 28. 12 figures are included which illustrate various aspects of the project. The documentation also includes tables that help to better understand the structure and operation of the system. 
