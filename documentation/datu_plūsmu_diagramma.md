@@ -35,6 +35,12 @@ Datu apstrādes procesi:
 
 *	Autorizācijas datu apstrāde - šīs operācijas laikā (skat. 10. attēlu) sistēma pārbauda lietotāja sesijas esamību, tiek apstrādāti lietotāja autorizācijas dati, ar kuru palīdzību lietotājs piesakās savā esošajā profilā. Lai lietotājs varētu autorizēties, datiem ir jāiztur šādas pārbaudes: derīga garuma, aizliegto rakstzīmju un identitātes pārbaude ar datubāzes datiem. Ja tie nav identiski, autorizācija nenotiek.
 
-![DP41 Deniss Kozlovs Datu plūsmu diagramma 6](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/plusmuDiag5.png "DP41 Deniss Kozlovs Autorizācijas datu apstrādes  plūsmu diagramma") 
+![DP41 Deniss Kozlovs Datu plūsmu diagramma 6](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/plusmuDiag6.png "DP41 Deniss Kozlovs Autorizācijas datu apstrādes  plūsmu diagramma") 
 
 10.att. Autorizācijas datu apstrādes  plūsmu diagramma
+
+*	Autorizācijas datu apstrāde - šīs operācijas laikā (skat. 11. attēlu) sistēma pārbauda lietotāja sesijas esamību, tiek apstrādāti lietotāja autorizācijas dati, ar kuru palīdzību lietotājs piesakās savā esošajā profilā. Lai lietotājs varētu autorizēties, datiem ir jāiztur šādas pārbaudes: derīga garuma, aizliegto rakstzīmju un identitātes pārbaude ar datubāzes datiem. Ja tie nav identiski, autorizācija nenotiek.
+
+![DP41 Deniss Kozlovs Datu plūsmu diagramma 7]( "DP41 Deniss Kozlovs Autorizācijas datu apstrādes  plūsmu diagramma") 
+
+11.att. Autorizācijas datu apstrādes  plūsmu diagramma
