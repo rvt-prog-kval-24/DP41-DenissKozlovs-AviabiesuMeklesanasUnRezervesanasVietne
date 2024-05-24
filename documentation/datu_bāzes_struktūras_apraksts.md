@@ -166,5 +166,5 @@ Tabulas “airflight_description” struktūra
 
 Dati fiziskajā līmenī tiek strukturizēti un uzglabāti, izmantojot shēmu ar saitēm (skat. 5.1. attēlu). Šāda struktūra nodrošina ērtu un efektīvu datu uzglabāšanu, tāpat šāda struktūra ļauj ietaupīt vietu tabulās, kas savukārt samazina sistēmas slodzi.
 
-![DP41 Deniss Kozlovs Datu plūsmu diagramma 1]( "DP41 Deniss Kozlovs Paroles maiņas  plūsmu diagramm")
+![DP41 Deniss Kozlovs Datubāzes_fiziskās_struktūras_shēma](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png "DP41 Deniss Kozlovs Datubāzes_fiziskās_struktūras_shēma")
 
