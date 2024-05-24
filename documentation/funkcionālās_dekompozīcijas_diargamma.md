@@ -8,7 +8,7 @@ Sistēmu veido četras apakšsistēmas: biļešu datu apstrādes, personas konta
 5.att. Funkcionālās dekompozīcijas diagramma
 
 
-*	Aviabiļešu datu apstrādes apakšsistēma ir atbildīga par datiem par visām aviobiļetēm, ko administrators ir izveidojis un pievienojis datu bāzei. Šī apakšsistēma ļauj pievienot, dzēst, rediģēt, apmaksāt un izdrukāt biļetes.
+*	Aviabiļešu datu apstrādes apakšsistēma ir atbildīga par datiem par visām aviabiļetēm, ko administrators ir izveidojis un pievienojis datu bāzei. Šī apakšsistēma ļauj pievienot, dzēst, rediģēt, apmaksāt un izdrukāt biļetes.
 
 *	Personas konta datu apstrādes apakšsistēma ir atbildīga par visu informāciju par konkrētas sesijas lietotāju. Šī apakšsistēma ļauj rediģēt konkrētas sesijas lietotāja paroli, vārdu, attēlu, kā arī apskatīt un anulēt rezervētās biļetes.
 
