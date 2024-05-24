@@ -89,16 +89,16 @@ Sistēmas ekrānu skices:
 
   ![2 att.](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/1.png "2 att.")
 
-1.att. Galvena lapas skices attēls 
+2.att. Galvena lapas skices attēls 
 
 * Admina lapas skice.  (skat. 3. att.)
 
   ![3 att.](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/2.png "3 att.")
 
-2.att. Admina lapas skices attēls
+3.att. Admina lapas skices attēls
 
 * Lietotāja komentāru sistēmas skice (skat. 4. att.)
 
   ![4 att.](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/3.png "4 att.")
  
-3.att. Komentāru sistēmas skices attēls
+4.att. Komentāru sistēmas skices attēls
