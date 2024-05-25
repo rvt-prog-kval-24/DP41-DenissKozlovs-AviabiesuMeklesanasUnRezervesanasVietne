@@ -111,13 +111,13 @@ Ievadam jauna lietotāja datus un spiežam pogu "SING UP" (skat. ?. att.)
 
 Kad esat autorizējies tīmekļa vietnē, noklikšķiniet uz pogas "Ticket rewievs" sākumlapā.  (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/registrpage.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/revievspoga.png)
 
 ? att. Komentāru lapas pogas skats
 
 Uz komentāru lapas, laukā "Add a comment" atstājiet savu komentāru un noklikšķiniet uz pogas "Post".  (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/registrpage.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commentlapa.png)
 
 ? att. Komentāru lapas un kumentāru formas skāts
 
