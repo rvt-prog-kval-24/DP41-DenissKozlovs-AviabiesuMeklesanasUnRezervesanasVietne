@@ -61,3 +61,6 @@ Lai uzstādītu un palaistu tīmekļa vietni biļešu pārdošanai, izpildiet š
 * Atveriet pārlūkprogrammu un ierakstiet adreses joslā http://localhost/ jūsu projekta nosaukumu /php/index.php.
 
 Pēc šo soļu izpildes jūsu vietne biļešu pārdošanai būs gatava darbam.
+
+### Programmas aprakasts
+
