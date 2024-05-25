@@ -68,7 +68,7 @@ Pēc šo soļu izpildes jūsu vietne biļešu pārdošanai būs gatava darbam.
 Atvetam pārlūkā saiti: http://localhost/main_course_project/php/index.php (skat. ?. att.)
 Spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". Tā kā jus neesat sesijā, tiks atvērta pieteikšanās lapa.
 
-kartinka
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mainpage.png)
 
 ? att. Index.php jeb sākuma lapas skats  
 
@@ -76,14 +76,14 @@ kartinka
 Ievadam datus un spiežam pogu "LOG IN" (skat. ?. att.)
 
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/autorization.png)
 
 ? att. Autorizācijas lapas skats
 
 Ja ievaditie dati bija ar lomu "Admin" (skat. ?. att.),tad vērās vaļā administratora panele, bet ja "user", tad parastu lietotāju skats (skat. ?. att.)
 
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mainpage.png)
 
 ? att. Administatora lapas skats
 
