@@ -145,8 +145,14 @@ Uz komentāru lapas, noklikšķiniet uz pogas "Delete" (skat. ?. att.)
 
 ? att. Komentāru lapas , dzēšanas pogas skats
 
-6.Filtrētas biļetes lapa.
+6.Biļetes rezervēšana.
 
+Uz galvenas lapas kā autorizēts lietotājs noklikšķiniet uz pogas "Meklēt biļetes".
+Uz komentāru lapas, noklikšķiniet uz pogas "Delete" (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/deletepoga.png)
+
+? att. Komentāru lapas , dzēšanas pogas skats
 
 7.Lidojuma apraksta lapa.
 
