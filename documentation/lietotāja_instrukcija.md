@@ -152,7 +152,7 @@ Lidojumu lapā izvēlieties atbilstošo lidojumu un noklikšķiniet uz "Book a t
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/biletesizveleslapa.png)
 
-? att. Komentāru lapas , dzēšanas pogas skats
+? att. Biļetes izvēles lapas skats
 
 7.Lidojuma apraksta lapa.
 
