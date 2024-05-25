@@ -102,13 +102,24 @@ Atvertā autorizācijas lapā, spiežam "Create an account" (skat. ?. att.)
 
 Ievadam jauna lietotāja datus un spiežam pogu "SING UP" (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/registrpage.png)
 
 ? att. Registrācijas lapas skats
 
 
-3.Autorizācijas lapa.
+3.Komentāru atstāšana.
 
+Kad esat autorizējies tīmekļa vietnē, noklikšķiniet uz pogas "Ticket rewievs" sākumlapā.  (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/registrpage.png)
+
+? att. Komentāru lapas pogas skats
+
+Uz komentāru lapas, laukā "Add a comment" atstājiet savu komentāru un noklikšķiniet uz pogas "Post".  (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/registrpage.png)
+
+? att. Komentāru lapas un kumentāru formas skāts
 
 4.Komentāru lapa.
 
