@@ -141,7 +141,7 @@ Noklikšķiniet uz pogas "Edit",kura atrodas rediģēšanas logā (skat. ?. att.
 Atvēram komentāra lapu? kā autorizēts lietotājs.
 Uz komentāru lapas, noklikšķiniet uz pogas "Delete" (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/redcomment.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/deletepoga.png)
 
 ? att. Komentāru lapas , dzēšanas pogas skats
 
