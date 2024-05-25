@@ -66,7 +66,7 @@ Pēc šo soļu izpildes jūsu vietne biļešu pārdošanai būs gatava darbam.
 1.Autorizācija reģistrētam lietotājam.
 
 Atvetam pārlūkā saiti: http://localhost/main_course_project/php/index.php (skat. ?. att.)
-Spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". Tā kā jus neesat sesijā, tiks atvērta pieteikšanās lapa.
+Spiežam uz pogu "Login/Register" vai uz "Search for tickets". Tā kā jus neesat sesijā, tiks atvērta pieteikšanās lapa.
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mainpage.png)
 
@@ -93,7 +93,7 @@ Ja ievaditie dati bija ar lomu "Admin" (skat. ?. att.),tad vērās vaļā admini
 
 2.Registrācija jaunam lietotājam.
 
-Uz galvenas lapas spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". (skat. ?. att.)
+Uz galvenas lapas spiežam uz pogu "Login/Register"" vai uz "Search for tickets". (skat. ?. att.)
 Atvertā autorizācijas lapā, spiežam "Create an account" (skat. ?. att.)
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/createaccauntpoga.png )
@@ -109,7 +109,7 @@ Ievadam jauna lietotāja datus un spiežam pogu "SING UP" (skat. ?. att.)
 
 3.Komentāru atstāšana.
 
-Kad esat autorizējies tīmekļa vietnē, noklikšķiniet uz pogas "Ticket rewievs" sākumlapā.  (skat. ?. att.)
+Kad esat autorizējies tīmekļa vietnē, noklikšķiniet uz pogas "Rewievs" sākumlapā.  (skat. ?. att.)
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/revievspoga.png)
 
@@ -147,12 +147,30 @@ Uz komentāru lapas, noklikšķiniet uz pogas "Delete" (skat. ?. att.)
 
 6.Biļetes rezervēšana.
 
-Uz galvenas lapas kā autorizēts lietotājs noklikšķiniet uz pogas "Meklēt biļetes".
-Lidojumu lapā izvēlieties atbilstošo lidojumu un noklikšķiniet uz "Book a ticket now". (skat. ?. att.)
+Uz galvenas lapas kā autorizēts lietotājs noklikšķiniet uz pogas "Search for tickets".
+Lidojumu lapā izvēlieties atbilstošo lidojumu un noklikšķiniet uz "Book a ticket now". (skat. ?. att.) Lidojuma lapā ir arī lauki un poga "Meklēt biļetes", kas pilda tādu pašu funkciju kā sākuma lapa.
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/biletesizveleslapa.png)
 
 ? att. Biļetes izvēles lapas skats
+
+Lidojuma informācijas lapā noklikšķiniet uz pogas "Order".
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/infolapa.png)
+
+? att. Lidojuma informācijas lapas skats
+
+Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pēc tam noklikšķiniet uz lidojuma, kas jums ir piemērots . Lai izdarītu galīgo izvēli, noklikšķiniet uz pogas "Continue".
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/brivaslidojumaizvele.png)
+
+? att. Lapas ar pieejamajiem lidojumiem skats
+
+Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pēc tam noklikšķiniet uz lidojuma, kas jums ir piemērots . Lai izdarītu galīgo izvēli, noklikšķiniet uz pogas "Continue".
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/offerlapa.png)
+
+? att. Lapas ar pieejamajiem lidojumiem skats
 
 7.Lidojuma apraksta lapa.
 
