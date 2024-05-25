@@ -121,8 +121,19 @@ Uz komentāru lapas, laukā "Add a comment" atstājiet savu komentāru un noklik
 
 ? att. Komentāru lapas un kumentāru formas skats
 
-4.Komentāru lapa.
+4.Komentāru rediģēšana, dzēšana
+Atvēram komentāra lapu? kā autorizēts lietotājs.
+Uz komentāru lapas, noklikšķiniet uz pogas "Edit" un rediģējam comentāru (skat. ?. att.)
 
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commentlapa1.png)
+
+? att. Komentāru lapas , rediģēšanas logas skats
+
+Noklikšķiniet uz pogas "Edit",kura atrodas rediģēšanas logā (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commentlapa1.png)
+
+? att. Komentāru lapas , rediģētas komentāras skats
 
 5.Lietotāja profila lapa.
 
