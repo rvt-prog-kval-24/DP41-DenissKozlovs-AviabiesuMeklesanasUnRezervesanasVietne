@@ -15,5 +15,14 @@ Minimālās prasības
 | 6   | Pārlūkprogramma     | Google Chrome / Mozilla Firefox / Safari (jaunākās versijas) |
 | 7   | Interneta pieslēgums | Platjoslas pieslēgums ar ātrumu vismaz 2 Mbit/s       |
 
-Lai izmantotu vietni, datorā ir jābūt interneta pārlūkprogrammai un interneta pieslēgumam.
+Lai palaistu vietni, ir jābūt instalētai pārlūkprogrammai, vietējam XAMPP vai Laragon serverim un interneta savienojumam.
+Ir vēlams, lai vietnes darbināšanai būtu šādas lietojumprogrammu versijas: 
+* XAMPP 8.0.30 
+* XAMPP 8.1.25
+* XAMPP 8.2.12
+* Laragon v 6.0
+* Laragon v 5.0
+
+  
+### Sistēmas instalācija un palaišana
 
