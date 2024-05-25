@@ -119,7 +119,7 @@ Uz komentāru lapas, laukā "Add a comment" atstājiet savu komentāru un noklik
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commentlapa.png)
 
-? att. Komentāru lapas un kumentāru formas skāts
+? att. Komentāru lapas un kumentāru formas skats
 
 4.Komentāru lapa.
 
