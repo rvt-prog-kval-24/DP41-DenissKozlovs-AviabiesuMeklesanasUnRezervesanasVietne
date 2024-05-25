@@ -76,18 +76,18 @@ kartinka
 Ievadam datus un spiežam pogu "LOG IN" (skat. ?. att.)
 
 
-kartinka
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
 
 ? att. Autorizācijas lapas skats
 
 Ja ievaditie dati bija ar lomu "Admin" (skat. ?. att.),tad vērās vaļā administratora panele, bet ja "user", tad parastu lietotāju skats (skat. ?. att.)
 
 
-kartinka
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
 
 ? att. Administatora lapas skats
 
-kartinka
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
 
 ? att. Parastā autorizēta lietotāja lapas skats
 
@@ -96,13 +96,13 @@ kartinka
 Uz galvenas lapas spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". (skat. ?. att.)
 Atvertā autorizācijas lapā, spiežam "Create an account" 
 
-kartinka
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
 
 ? att. Registrācijas pogas skats
 
 Ievadam jauna lietotāja datus un spiežam pogu "SING UP" (skat. ?. att.)
 
-kartinka
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
 
 ? att. Registrācijas lapas skats
 
