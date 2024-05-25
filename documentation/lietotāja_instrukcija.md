@@ -150,7 +150,7 @@ Uz komentāru lapas, noklikšķiniet uz pogas "Delete" (skat. ?. att.)
 Uz galvenas lapas kā autorizēts lietotājs noklikšķiniet uz pogas "Meklēt biļetes".
 Lidojumu lapā izvēlieties atbilstošo lidojumu un noklikšķiniet uz "Book a ticket now". (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/deletepoga.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/biletesizveleslapa.png)
 
 ? att. Komentāru lapas , dzēšanas pogas skats
 
