@@ -18,7 +18,7 @@ Minimālās prasības
 | 6   | Pārlūkprogramma     | Google Chrome / Mozilla Firefox / Safari (jaunākās versijas) |
 | 7   | Interneta pieslēgums | Platjoslas pieslēgums ar ātrumu vismaz 2 Mbit/s       |
 
-Lai palaistu vietni, ir jābūt instalētai pārlūkprogrammai, vietējam XAMPP vai Laragon serverim un interneta savienojumam.
+Lai palaistu vietni, ir jābūt instalētai pārlūkprogrammai, vietējam XAMPP serverim un interneta savienojumam.
 Ir vēlams, lai vietnes darbināšanai būtu šādas lietojumprogrammu versijas: 
 
 * XAMPP 8.0.30 
@@ -63,43 +63,100 @@ Pēc šo soļu izpildes jūsu vietne biļešu pārdošanai būs gatava darbam.
 
 ### Programmas aprakasts
 
-1.Galvena lapa.
+1.Autorizācija reģistrētam lietotājam.
 
-2.Registrācijas lapa.
+Atvetam pārlūkā saiti: http://localhost/main_course_project/php/index.php (skat. ?. att.)
+Spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". Tā kā jus neesat sesijā, tiks atvērta pieteikšanās lapa.
+
+kartinka
+
+? att. Index.php jeb sākuma lapas skats  
+
+
+Ievadam datus un spiežam pogu "LOG IN" (skat. ?. att.)
+
+
+kartinka
+
+? att. Autorizācijas lapas skats
+
+Ja ievaditie dati bija ar lomu "Admin" (skat. ?. att.),tad vērās vaļā administratora panele, bet ja "user", tad parastu lietotāju skats (skat. ?. att.)
+
+
+kartinka
+
+? att. Administatora lapas skats
+
+kartinka
+
+? att. Parastā autorizēta lietotāja lapas skats
+
+2.Registrācija jaunam lietotājam.
+
+Uz galvenas lapas spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". (skat. ?. att.)
+Atvertā autorizācijas lapā, spiežam "Create an account" 
+
+kartinka
+
+? att. Registrācijas pogas skats
+
+Ievadam jauna lietotāja datus un spiežam pogu "SING UP" (skat. ?. att.)
+
+kartinka
+
+? att. Registrācijas lapas skats
+
 
 3.Autorizācijas lapa.
 
+
 4.Komentāru lapa.
+
 
 5.Lietotāja profila lapa.
 
+
 6.Filtrētas biļetes lapa.
+
 
 7.Lidojuma apraksta lapa.
 
+
 8. Pieejamā lidojuma izvēles lapa.
+
 
 9. Lidojuma līmeņa izvēles lapa.
 
+
 10. Klasisko vai biznesa lidojumu izvēles lapa.
+
 
 11. Aviokompānijas bagāžas atlases lapa.
 
+
 12. Brīvas sēdvietas izvēlei lidmašīnā lapa.
+
 
 13. Lietotāja personas datu ievadīšanu pirms maksājuma veikšanas lapa.
 
+
 14. Administratora mājas lapa.
+
 
 15. Lidojuma datu modificēšanas lapa.
 
+
 16.Informācijas lapa par biļešu atcelšanu
+
 
 17.Informācijas lapa par ceļošanu ar dzīvniekiem
 
+
 18.Informācijas lapa par bagāžas svaru
 
+
 19.Informācijas lapa par atlaidēm
+
 
 20.Informācijas lapa par bagāžas reģistrāciju
 
