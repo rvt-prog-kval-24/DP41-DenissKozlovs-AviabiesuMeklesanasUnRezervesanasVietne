@@ -58,6 +58,6 @@ Lai uzstādītu un palaistu tīmekļa vietni biļešu pārdošanai, izpildiet š
 * Izvēlieties tikko izveidoto datu bāzi, spiediet "Importēt" un augšupielādējiet lejupielādēto datu bāzes failu.
 7. Palaidiet vietni
 
-*Atveriet pārlūkprogrammu un ierakstiet adreses joslā http://localhost/ jūsu projekta nosaukumu /php/index.php.
+* Atveriet pārlūkprogrammu un ierakstiet adreses joslā http://localhost/ jūsu projekta nosaukumu /php/index.php.
 
 Pēc šo soļu izpildes jūsu vietne biļešu pārdošanai būs gatava darbam.
