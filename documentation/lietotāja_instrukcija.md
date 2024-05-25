@@ -62,3 +62,50 @@ Pēc šo soļu izpildes jūsu vietne biļešu pārdošanai būs gatava darbam.
 
 ### Programmas aprakasts
 
+1.Galvena lapa.
+
+2.Registrācijas lapa.
+
+3.Autorizācijas lapa.
+
+4.Komentāru lapa.
+
+5.Lietotāja profila lapa.
+
+6.Filtrētas biļetes lapa.
+
+7.Lidojuma apraksta lapa.
+
+8. Pieejamā lidojuma izvēles lapa.
+
+9. Lidojuma līmeņa izvēles lapa.
+
+10. Klasisko vai biznesa lidojumu izvēles lapa.
+
+11. Aviokompānijas bagāžas atlases lapa.
+
+12. Brīvas sēdvietas izvēlei lidmašīnā lapa.
+
+13. Lietotāja personas datu ievadīšanu pirms maksājuma veikšanas lapa.
+
+14. Administratora mājas lapa.
+
+15. Lidojuma datu modificēšanas lapa.
+
+16.Informācijas lapa par biļešu atcelšanu
+
+17.Informācijas lapa par ceļošanu ar dzīvniekiem
+
+18.Informācijas lapa par bagāžas svaru
+
+19.Informācijas lapa par atlaidēm
+
+20.Informācijas lapa par bagāžas reģistrāciju
+
+
+
+
+
+
+
+
