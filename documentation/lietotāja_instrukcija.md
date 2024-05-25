@@ -24,8 +24,6 @@ Ir vēlams, lai vietnes darbināšanai būtu šādas lietojumprogrammu versijas:
 * XAMPP 8.0.30 
 * XAMPP 8.1.25
 * XAMPP 8.2.12
-* Laragon v 6.0
-* Laragon v 5.0
 
   
 ### Sistēmas instalācija un palaišana
@@ -37,9 +35,9 @@ Lai uzstādītu un palaistu tīmekļa vietni biļešu pārdošanai, izpildiet š
 
 * Lejupielādējiet projekta failus no GitHub krātuves.
 * Lejupielādējiet arī datu bāzes failu.
-2. Uzstādiet XAMPP vai Laragon
+2. Uzstādiet XAMPP .
 
-* Instalējiet lokālo serveri XAMPP vai Laragon.
+* Instalējiet lokālo serveri XAMPP .
 * Uzziniet paroli no administrācijas profila vietnes veidotāja.
 3. Konfigurējiet PHP iestatījumus
 
