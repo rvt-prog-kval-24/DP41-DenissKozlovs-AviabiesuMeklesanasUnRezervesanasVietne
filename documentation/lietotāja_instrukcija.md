@@ -83,20 +83,20 @@ Ievadam datus un spiežam pogu "LOG IN" (skat. ?. att.)
 Ja ievaditie dati bija ar lomu "Admin" (skat. ?. att.),tad vērās vaļā administratora panele, bet ja "user", tad parastu lietotāju skats (skat. ?. att.)
 
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mainpage.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/adminpage.png)
 
 ? att. Administatora lapas skats
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/lietotajalapasskats.png )
 
 ? att. Parastā autorizēta lietotāja lapas skats
 
 2.Registrācija jaunam lietotājam.
 
 Uz galvenas lapas spiežam uz pogu "Autorizēties/reģistrēties" vai uz "Meklēt biļetes". (skat. ?. att.)
-Atvertā autorizācijas lapā, spiežam "Create an account" 
+Atvertā autorizācijas lapā, spiežam "Create an account" (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/Datubāzes_fiziskās_struktūras_shēma.png )
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/createaccauntpoga.png )
 
 ? att. Registrācijas pogas skats
 
