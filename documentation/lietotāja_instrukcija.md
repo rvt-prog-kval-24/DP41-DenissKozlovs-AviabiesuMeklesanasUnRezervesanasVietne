@@ -166,11 +166,11 @@ Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pē
 
 ? att. Lapas ar pieejamajiem lidojumiem skats
 
-Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pēc tam noklikšķiniet uz lidojuma, kas jums ir piemērots . Lai izdarītu galīgo izvēli, noklikšķiniet uz pogas "Continue".
+Izvēlieties sev piemērotāko lidojuma veidu, noklikšķinot uz vienas no biļetēm pogas "Continue".
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/offerlapa.png)
 
-? att. Lapas ar pieejamajiem lidojumiem skats
+? att. Biļešu klases lapas skats
 
 7.Lidojuma apraksta lapa.
 
