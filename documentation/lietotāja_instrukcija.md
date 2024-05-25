@@ -117,7 +117,7 @@ Kad esat autorizējies tīmekļa vietnē, noklikšķiniet uz pogas "Ticket rewie
 
 Uz komentāru lapas, laukā "Add a comment" atstājiet savu komentāru un noklikšķiniet uz pogas "Post".  (skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commentlapa.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commentlapa1.png)
 
 ? att. Komentāru lapas un kumentāru formas skats
 
