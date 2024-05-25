@@ -35,7 +35,7 @@ Lai uzstādītu un palaistu tīmekļa vietni biļešu pārdošanai, izpildiet š
 
 * Lejupielādējiet projekta failus no GitHub krātuves https://github.com/DenKozlov04.
 * Lejupielādējiet projekta datu bāzi no Google Drive krātuves https://drive.google.com/file/d/............/view?usp=sharing
-* Lejupielādējiet arī datu bāzes failu.
+
 2. Uzstādiet XAMPP .
 
 * Instalējiet lokālo serveri XAMPP .
