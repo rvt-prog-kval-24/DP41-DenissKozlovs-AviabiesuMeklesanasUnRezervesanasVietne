@@ -154,29 +154,73 @@ Lidojumu lapā izvēlieties atbilstošo lidojumu un noklikšķiniet uz "Book a t
 
 ? att. Biļetes izvēles lapas skats
 
-Lidojuma informācijas lapā noklikšķiniet uz pogas "Order".
+Lidojuma informācijas lapā noklikšķiniet uz pogas "Order".(skat. ?. att.)
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/infolapa.png)
 
 ? att. Lidojuma informācijas lapas skats
 
-Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pēc tam noklikšķiniet uz lidojuma, kas jums ir piemērots . Lai izdarītu galīgo izvēli, noklikšķiniet uz pogas "Continue".
+Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pēc tam noklikšķiniet uz lidojuma, kas jums ir piemērots . Lai izdarītu galīgo izvēli, noklikšķiniet uz pogas "Continue".(skat. ?. att.)
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/brivaslidojumaizvele.png)
 
 ? att. Lapas ar pieejamajiem lidojumiem skats
 
-Izvēlieties sev piemērotāko lidojuma veidu, noklikšķinot uz vienas no biļešu klases pogas "Continue".
+Izvēlieties sev piemērotāko lidojuma veidu, noklikšķinot uz vienas no biļešu klases pogas "Continue".(skat. ?. att.)
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/offerlapa.png)
 
 ? att. Biļešu klases lapas skats
 
-Izvēlieties sev piemērotāko lidojuma veidu, noklikšķinot uz vienas no biļetēm pogas "Continue".
+Lapā ar biļešu tipa izvēli izvēlieties "Business" vai "Classic" un noklikšķiniet uz kādas no lapā esošajām radiopoga pogām. Lai apstiprinātu savu izvēli, noklikšķiniet uz pogas "Continue". Lai atgrieztos pie biļešu izvēles, noklikšķiniet uz pogas "Back", kas arī atrodas lapā ar biļetes veida izvēli.(skat. ?. att.)
 
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/offerlapa.png)
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/tickettypelapa.png)
 
-? att. Biļešu klases lapas skats
+? att. Biļešu tipa izvēli izvēlieties lapas skats
+
+Bagāžas izvēles lapā varat izlasīt sīkāku informāciju par pakalpojumiem, noklikšķinot uz "Kas ir rokas bagāža" vai "Kas ir reģistrētā bagāža". Ja vēlaties, varat izvēlēties papildu svaru rokas bagāžai salonā, noklikšķinot uz pogām "+8", "+16", "+24", kas nozīmē attiecīgi 8, 16 un 24 kg.(skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/luggagelapa.png)
+
+? att. Bagāžas izvēles lapās skats
+
+Bagāžas atlases lapā ,"Reģistrētā bagāža" formā, noklikšķiniet uz pogas "+" vai "-", lai atlasītu bagāžas svaru, kas jānogādā tieši lidmašīnas bagāžas nodalījumā. (skat. ?. att.)
+Noklikšķiniet uz pogas "Turpināt", lai apstiprinātu savu izvēli.
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/bagazanodalijumsforma.png)
+
+? att. "Reģistrētā bagāža" formas skats
+
+Lai izvēlētos vietu lidmašīnā, jums ir nepieciešams iepazīties ar informāciju vietu izvēles lapā.(skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/lidmasinasvietaslapa.png)
+
+? att. Lidmašīnas vietas lapas skats
+
+Lai atlasītu atrašanās vietu, noklikšķiniet uz tās. Brīvā vieta ir iekrāsota pelēkā krāsā, aizņemtā vieta ir iekrāsota zilā krāsā, vieta, uz kuras noklikšķinājāt, būs iekrāsota sarkanā krāsā. Zem katras vietas ir norādīta tās cena.(skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/vietaskrasas.png)
+
+? att.  Rezervēšanas sēdvietu pogas skats
+
+Izvēloties sēdvietu, noklikšķiniet uz pogas "Continue", kas atrodas pašā sēdvietu atlases lapas apakšā.(skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/continuevietaspoga.png)
+
+? att.  Izvēlētās vietas apstiprinājuma pogas skats
+
+Lai pabeigtu biļešu rezervāciju, jums jāaizpilda veidlapa, kurā norādīta jūsu personīgā informācija. Kad esat aizpildījis visus datus, noklikšķiniet uz pogas "Send and pay". (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/rezervacijaslapasforma.png)
+
+? att.  Biļešu rezervāciju lapas skats
+
+Lai pārliecinātos, ka biļete ir veiksmīgi rezervēta, kā autorizēts lietotājs, pārejiet uz savu profilu, nospiežot pogu "Your profile" galvenās lapas vietnes galvenē. (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/profilapoga.png)
+
+? att.  Profila pogas skats
+
 
 7.Lidojuma apraksta lapa.
 
