@@ -276,4 +276,12 @@ Lai pievienotu pieejamu reisu konkrētajai datumei, jums jāieiet "lidojumā", l
 
 ### Testa piemērs
 
+Kā piemēru testam apskatīsim reģistrāciju, autorizāciju un komentāra atstāšanu. Atverot saiti http://nosaukums_mapē_ar_vietni/php/index.php, mēs redzam galveno lapu. Nospiežot pogu "Your Profile" vai "Search for tickets". (skat. 44. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mainlapa.png)
+
+
+Mums atvērsies autorizācijas forma, kurā, aizpildot visus laukus, jūs varēsiet autorizēties. Pēc tam nospiediet pogu "LOG IN", lai nosūtītu formu.(skat. 45. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/autor.png)
 
