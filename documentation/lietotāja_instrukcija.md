@@ -166,6 +166,12 @@ Lapā ar pieejamajiem lidojumiem kalendārā izvēlieties piemērotu datumu, pē
 
 ? att. Lapas ar pieejamajiem lidojumiem skats
 
+Izvēlieties sev piemērotāko lidojuma veidu, noklikšķinot uz vienas no biļešu klases pogas "Continue".
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/offerlapa.png)
+
+? att. Biļešu klases lapas skats
+
 Izvēlieties sev piemērotāko lidojuma veidu, noklikšķinot uz vienas no biļetēm pogas "Continue".
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/offerlapa.png)
