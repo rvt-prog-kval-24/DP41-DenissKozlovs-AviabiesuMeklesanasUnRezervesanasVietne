@@ -241,10 +241,15 @@ Formā ar dažādu informāciju jūs varat izdzēst profilu, nospiežot pogu "Cl
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/dazadasfunkcijas.png)
 
-? att. "Various functions" formas skats
+? att. "Various functions" formas skats![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/adminpage.png)
 
 9. Lidojuma līmeņa izvēles lapa.
 
+Formā ar dažādu informāciju jūs varat izdzēst profilu, nospiežot pogu "Click here". Privātuma politiku var izlasīt, nospiežot pogu "Privacy policy". Jūs varat pievienot bērnu, aizpildot formu un nospiežot "Add child", ja jums ir reiss. Nospiežot pogu "Choose seat", jūs izvēlēsieties vietu bērnam. (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/dazadasfunkcijas.png)
+
+? att. "Various functions" formas skats
 
 10. Klasisko vai biznesa lidojumu izvēles lapa.
 
