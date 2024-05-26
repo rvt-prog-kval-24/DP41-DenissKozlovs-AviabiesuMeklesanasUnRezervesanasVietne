@@ -229,14 +229,19 @@ Lietotāja profila lapā pārbaudiet formu "My reservations". Ja tajā ir ieraks
 
 7.Lietotāja informācijas maiņa.
 
-Lai mainītu informāciju savā profilā, jums jādodas uz lietotāja profila lapu un, noklikšķinot uz pogas ar zīmuļa ikonu, varat mainīt profila attēlu, paroli, tālruņa numuru, e-pasta adresi vai lietot'ajvardu. (skat. ?. att.)
+Lai mainītu informāciju savā profilā, jums jādodas uz lietotāja profila lapu un, noklikšķinot uz pogas ar zīmuļa ikonu, varat mainīt profila attēlu, paroli, tālruņa numuru, e-pasta adresi vai lietotājvardu.Jūs varat arī iziet no sava profila vai atgriezties sākuma lapā, izmantojot pogas "Back" un "Logout". (skat. ?. att.)
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mansprofils.png)
 
 ? att. "My profile" formas skats
 
-8. Pieejamā lidojuma izvēles lapa.
+8. Dažādu funkciju izmantošana.
+   
+Formā ar dažādu informāciju jūs varat izdzēst profilu, nospiežot pogu "Click here". Privātuma politiku var izlasīt, nospiežot pogu "Privacy policy". Jūs varat pievienot bērnu, aizpildot formu un nospiežot "Add child", ja jums ir reiss. Nospiežot pogu "Choose seat", jūs izvēlēsieties vietu bērnam. (skat. ?. att.)
 
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/dazadasfunkcijas.png)
+
+? att. "Various functions" formas skats
 
 9. Lidojuma līmeņa izvēles lapa.
 
