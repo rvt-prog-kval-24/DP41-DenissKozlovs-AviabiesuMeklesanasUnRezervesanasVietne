@@ -34,6 +34,7 @@ Lai uzstādītu un palaistu tīmekļa vietni biļešu pārdošanai, izpildiet š
 1. Lejupielādējiet vietnes failus
 
 * Lejupielādējiet projekta failus no GitHub krātuves https://github.com/DenKozlov04.
+* Atarhivējiet mapi un pārdēvējiet mapi uz main_course_project .
 * Lejupielādējiet projekta datu bāzi no Google Drive krātuves https://drive.google.com/file/d/............/view?usp=sharing
 
 2. Uzstādiet XAMPP .
@@ -285,3 +286,30 @@ Mums atvērsies autorizācijas forma, kurā, aizpildot visus laukus, jūs varēs
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/autor.png)
 
+Ja kāds no parametriem neizdodas, ekrānā tiek parādīts kļūdas logs.(skat. 46. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/kluda.png)
+
+Veicot tās pašas darbības, nospiediet pogu "Create an account", lai reģistrētos vietnē. (skat. 47. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/regpoga.png)
+
+Atvērsies reģistrācijas lapa, kurā, aizpildot visus laukus un nospiežot pogu "SIGN UP", varēsiet reģistrēties (skat. 48. att.). Ja kaut kas neizturēs pārbaudi, tad tiks parādīta kļūda atkarībā no lauka (skat. 49. att.).
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/reglap.png)
+
+Kļūdu izvadīšana uz ekrāna (skat. 49. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/kluda2.png)
+
+Lai atstātu komentāru vietnē, nospiediet pogu "Atsauksmes", kas atrodas galvenās lapas navigācijas joslā.(skat. 50. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/revpoga.png)
+
+Lai atstātu komentāru vietnē, nospiediet pogu "Atsauksmes", kas atrodas galvenās lapas navigācijas joslā.(skat. 50. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/revpoga.png)
+
+Ievadiet komentāru komentāru formā un nospiediet "Post", lai ievietotu komentāru.(skat. 51. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/commform.png)
