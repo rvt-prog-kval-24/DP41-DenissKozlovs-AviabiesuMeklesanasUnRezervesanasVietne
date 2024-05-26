@@ -241,50 +241,37 @@ Formā ar dažādu informāciju jūs varat izdzēst profilu, nospiežot pogu "Cl
 
 ![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/dazadasfunkcijas.png)
 
-? att. "Various functions" formas skats![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/adminpage.png)
-
-9. Lidojuma līmeņa izvēles lapa.
-
-Formā ar dažādu informāciju jūs varat izdzēst profilu, nospiežot pogu "Click here". Privātuma politiku var izlasīt, nospiežot pogu "Privacy policy". Jūs varat pievienot bērnu, aizpildot formu un nospiežot "Add child", ja jums ir reiss. Nospiežot pogu "Choose seat", jūs izvēlēsieties vietu bērnam. (skat. ?. att.)
-
-![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/dazadasfunkcijas.png)
-
 ? att. "Various functions" formas skats
 
-10. Klasisko vai biznesa lidojumu izvēles lapa.
+9. Lidojuma pievienošana .
 
+Lai pievienotu jaunu lidojumu, autorizējieties kā administrators un aizpildiet lidojuma pievienošanas formu. Noklikšķiniet uz pogas "Choose File", lai pievienotu lidojumu, un pēc tam noklikšķiniet uz pogas "Add flight". (skat. ?. att.)
 
-11. Aviokompānijas bagāžas atlases lapa.
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/adminforma.png)
 
+? att. Admina formas skats
 
-12. Brīvas sēdvietas izvēlei lidmašīnā lapa.
+10. Lidojuma rediģēšana.
+    
+Lai rediģētu vai dzēstu lidojumu, dodieties uz lidojumu lapu kā administrators un noklikšķiniet uz "Dzēst", lai to dzēstu, vai uz zīmuļa ikonu, lai rediģētu. (skat. ?. att.)
 
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/edit.png)
 
-13. Lietotāja personas datu ievadīšanu pirms maksājuma veikšanas lapa.
+? att. Lidojuma rediģēšanas skats
 
+Kad noklikšķināsiet uz "rediģēt", tiks atvērta forma datu maiņai, kurā jūs varat rediģēt lidojumu. (skat. ?. att.)
 
-14. Administratora mājas lapa.
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/editforma.png)
 
+? att. Lidojuma rediģēšanas formas skats
 
-15. Lidojuma datu modificēšanas lapa.
+10. Konkrētā datumā pieejamo reisu pievienošana.
 
+Lai pievienotu pieejamu reisu konkrētajai datumei, jums jāieiet "lidojumā", lapā ar kalendāru, kā administrators. Uz lapas parādīsies forma reisa pievienošanai. Aizpildot to, jūs pievienosiet reisu konkrētam lidojumam. (skat. ?. att.)
 
-16.Informācijas lapa par biļešu atcelšanu
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/addreissforma.png)
 
-
-17.Informācijas lapa par ceļošanu ar dzīvniekiem
-
-
-18.Informācijas lapa par bagāžas svaru
-
-
-19.Informācijas lapa par atlaidēm
-
-
-20.Informācijas lapa par bagāžas reģistrāciju
-
-
-
+? att. Konkrētā datumā pieejamo reisu formas skats
 
 
 
