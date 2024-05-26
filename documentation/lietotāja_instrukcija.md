@@ -227,8 +227,13 @@ Lietotāja profila lapā pārbaudiet formu "My reservations". Ja tajā ir ieraks
 
 ? att. "My reservations" formas skats
 
-7.Lidojuma apraksta lapa.
+7.Lietotāja informācijas maiņa.
 
+Lai mainītu informāciju savā profilā, jums jādodas uz lietotāja profila lapu un, noklikšķinot uz pogas ar zīmuļa ikonu, varat mainīt profila attēlu, paroli, tālruņa numuru, e-pasta adresi vai lietot'ajvardu. (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/mansprofils.png)
+
+? att. "My profile" formas skats
 
 8. Pieejamā lidojuma izvēles lapa.
 
