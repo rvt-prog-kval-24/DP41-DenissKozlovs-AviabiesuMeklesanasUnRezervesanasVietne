@@ -221,6 +221,11 @@ Lai pārliecinātos, ka biļete ir veiksmīgi rezervēta, kā autorizēts lietot
 
 ? att.  Profila pogas skats
 
+Lietotāja profila lapā pārbaudiet formu "My reservations". Ja tajā ir ieraksts, tas nozīmē, ka jūsu biļete ir veiksmīgi rezervēta. Jūs varat izdrukāt biļeti, nospiežot pogu "Save as PDF", vai arī atcelt biļeti, nospiežot pogu "Cancel" uz biļetes. (skat. ?. att.)
+
+![](https://github.com/rvt-prog-kval-24/DP41-DenissKozlovs-AviabiesuMeklesanasUnRezervesanasVietne/blob/main/documentation/atteli/manasrezervacijasforma.png)
+
+? att. "My reservations" formas skats
 
 7.Lidojuma apraksta lapa.
 
