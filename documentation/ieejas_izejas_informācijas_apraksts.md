@@ -68,7 +68,7 @@ Sistēmā tiks nodrošināta šādas ieejas informācijas apstrāde.
 ##  Izejas informācijas apraksts
 
 1.	Rezervēta lidojuma izvade PDF formātā pēc lidojuma rezervēšanas. PDF failā tiks atspoguļota informācija par rezervētu lietotāja lidojumu. 
-2.	E-pasta paziņojums lietotājiem ar kontaktinformāciju.Vēstulē tiks sniegta informācija par rezervētu biļeti un veiksmīgu biļetes rezervāciju.
+2.	E-pasta paziņojums lietotājiem ar kontaktinformāciju.Vēstulē tiks sniegta informācija par veiksmīgu rezervāciju vietnē.
 3.	Paziņojums vietnē. Vietnē var būt sniegta informācija par veiksmīgu biļetes rezervāciju vai registrāciju paša vietnē.
 
 
