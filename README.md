@@ -25,6 +25,8 @@ Sistēmā jāievieš šādas funkcijas:
   - CSS
   - JavaScript
   - PHP
+  - PhpMailer
+  - FPDF
 - Darbam ar datu bāzi tika izmantots:
   - XAMPP
   - phpMyAdmin
