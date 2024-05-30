@@ -155,13 +155,11 @@ Tabulas “airflight_description” struktūra
 
 | Nr. | Nosaukums       | Tips     | Garums | Apraksts                                                      |
 |-----|-----------------|----------|--------|---------------------------------------------------------------|
-| 1   | id              | int      | 5      | Lidojuma apraksta identifikācijas numurs. (Primārā atslēga)   |
-| 2   | airline_id      | int      | 11     | lidojuma identifikācijas numurs. (Ārēja atslēga)          |
-| 3   | departure_date  | date     | -      | Izlidošanas datums                                             |
-| 4   | arrival_date    | date     | -      | Ierašanās datums                                               |
-| 5   | departure_time  | time     | -      | Izlidošanas laiks                                              |
-| 6   | arrival_time    | time     | -      | Ierašanās laiks                                                |
-| 7   | price           | varchar  | 5      | Biļetes cena                                                   |
+| 1   | description_id  | int      | 5      | Lidojuma apraksta identifikācijas numurs. (Primārā atslēga)   |
+| 2   | description     | varchar  | 11     | Lidojuma apraksts.                                         |
+| 3   | flight_image    | longblob | -      | Lidojuma attēls                                           |
+| 4   | flight_id       | int      | -      | Lidojuma identifikācijas numurs. (Ārēja atslēga)              |
+
 
 
 Dati fiziskajā līmenī tiek strukturizēti un uzglabāti, izmantojot shēmu ar saitēm (skat. 13. attēlu). Šāda struktūra nodrošina ērtu un efektīvu datu uzglabāšanu, tāpat šāda struktūra ļauj ietaupīt vietu tabulās, kas savukārt samazina sistēmas slodzi.
