@@ -1,0 +1,728 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.rectangleHeader{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+.logorectangle{
+    background: #DE6A6A;
+    width: 160px;
+    height: 80px;
+    margin-left: 330px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.logorectangle a {
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+.flightName {
+    color: #0d057c;
+    font-weight: 600;
+    position: absolute;
+    left: 560px; /* Горизонтальное расположение */
+    top: 35px; /* Вертикальное расположение */
+    z-index: 15;
+}
+.CartImg{
+    width: 30px;
+    height: 30px;
+    margin-left: 75%;
+    margin-top:-2.7%;
+    position: absolute;
+    z-index: 7;
+}
+.price{
+    margin-left: 77%;
+    margin-top:-2.3%;
+    position: absolute;
+    font-size:14px;
+    font-weight: bold;
+}
+.InfoBox{
+    /* background-color: #32cd3f49; */
+    width:320px;
+    height:40px;
+    margin-left:330px;
+    margin-top: 30px;
+}
+.Info{
+    font-weight:bold;
+    color: #0d0768;
+   }
+
+   .Info2{
+    font-size:13px;
+    color: #70707a;
+}
+
+.Info3{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.Info4{
+    font-size: 17px;
+    margin-top: 95px;
+    margin-left: 890px;
+    position: absolute;
+}
+.custom-rectangle2L {
+    width: 100%;
+    min-height: 1080px;
+    border-radius: 50px;
+    background: #F5F5F5;
+    /* margin: auto; */
+
+    z-index: 1;
+    position: relative;
+    transform: translateY(10px);
+    margin-bottom: 10px; 
+    margin-top: 960px;
+}
+.buttonBox1 {
+    width: 200px;
+    margin-left: 300px;
+    bottom: 191px;
+    left: -10px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.buttonBox1 button {
+    background-color: #06dd0d;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px; 
+    margin-top: 5px; 
+    margin-bottom: 1px; 
+    transition: background-color 0.3s ease; /*плавный переход для цвета */
+}
+.buttonBox1 button.active {
+    background-color: rgb(252, 252, 123); /* Новый цвет при активации */
+}
+
+
+.buttonBox2{
+    width: 200px;
+    margin-left: 300px;
+    bottom:86px;
+    left:-10px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.buttonBox2 button {
+    background-color:#06dd0d;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px; 
+    margin-top: 5px; 
+    margin-bottom: 1px; 
+    transition: background-color 0.3s ease; 
+    
+}
+.buttonBox2 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.buttonBox3 {
+    width: 160px;
+    margin-left: 300px;
+    bottom: 185px;
+    left: 200px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.buttonBox3 button {
+    text-align: right;
+    font-size: 9px;
+    width: 100%; 
+    padding-left: 2px;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox3 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.buttonBox3 button {
+    background-color:#06dd0d;
+    width: 25px;
+    height: 25px;
+    margin-right: 14px; 
+    margin-top: 1px; 
+    margin-bottom: 0px; 
+    padding-left: 2px;
+    font-weight: 700;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox4{
+    width: 160px;
+    margin-left: 300px;
+    bottom:85px;
+    left:200px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.buttonBox4 button {
+    background-color:#06dd0d;
+    width: 25px;
+    height: 25px;
+    margin-right: 14px; 
+    margin-top: 1px; 
+    margin-bottom: 0px; 
+    font-size: 9px;
+    padding-left: 2px;
+    font-weight: 700;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox4 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.buttonBox5{
+    width: 160px;
+    margin-left: 300px;
+    bottom:185px;
+    left:358px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+.buttonBox5 button {
+    background-color:#06dd0d;
+    width: 25px;
+    height: 25px;
+    margin-right: 14px; 
+    margin-top: 1px; 
+    margin-bottom: 0px; 
+    font-size: 9px;
+    padding-left: 2px;
+    font-weight: 700;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox5 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.buttonBox6{
+    width: 160px;
+    margin-left: 300px;
+    bottom:85px;
+    left:358px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.buttonBox6 button {
+    background-color:#06dd0d;
+    width: 25px;
+    height: 25px;
+    margin-right: 14px; 
+    margin-top: 1px; 
+    margin-bottom: 0px; 
+    font-size: 9px;
+    padding-left: 3px;
+    font-weight: 700;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox6 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.buttonBox7{
+    width: 550px;
+    margin-left: 300px;
+    bottom:185px;
+    left:510px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.buttonBox7 button {
+    background-color:#06dd0d;
+    width: 25px;
+    height: 25px;
+    margin-right: 6px; 
+    margin-top: 1px; 
+    margin-bottom: 0px; 
+    font-size: 9px;
+    padding-left: 3px; 
+    font-weight: 700;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox7 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.buttonBox8{
+    width: 550px;
+    margin-left: 300px;
+    bottom:85px;
+    left:510px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.buttonBox8 button {
+    background-color: #06dd0d;
+    width: 25px;
+    height: 25px;
+    margin-right: 6px; 
+    margin-top: 1px; 
+    margin-bottom: 0px; 
+    font-size: 9px;
+    padding-left: 3px;
+    font-weight: 700;
+    transition: background-color 0.3s ease; 
+}
+.buttonBox8 button.active {
+    background-color: rgb(252, 252, 123); 
+}
+.Image2 {
+    text-align: center; 
+    position: relative; 
+}
+
+.Image2 img {
+    width: 100%; 
+    height: auto;
+    margin: 0 auto; 
+    position: relative;
+    transform: rotate(90deg);
+}
+
+.PlaneCabinRectangle{
+    background-color: #ffffff;
+    /* width:720px; */
+    width:760px;
+    height: 2500px;
+    position: absolute;
+    margin-top:200px;
+    margin-left:550px;
+    border-radius: 0 0 200px 200px; 
+}
+
+.RowLetters1{
+    display: flex;
+    color:#B1B1B1;
+    font-size: 50px;
+}
+
+.RowLetters2{
+    display: flex;
+    color:#B1B1B1;
+    font-size: 50px;
+    margin-left:305px;
+}
+.RowLettersAll{
+    display: flex; 
+    margin-top:120px;
+    margin-left:50px;
+}
+.RowLetters1 a.Letter,
+.RowLetters2 a.Letter {
+    margin-right: 75px; 
+}
+.PlaceButton {
+    width: 90px;
+    height: 90px;
+    background-color: #D9D9D9; 
+    border: none; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    
+}
+.ButtonRect1 {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px; 
+}
+.PricePlace {
+    margin-top: 70px;
+    position: relative; /* Заменили absolute на relative */
+    left: 0px;
+    width: 70px;
+    height: 26px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    box-shadow: 0 2px 4px rgba(104, 104, 104, 0.4);
+    padding-top: 6px;
+}
+
+.ButtonRect2 {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column; 
+    margin-left: 130px; 
+    margin-top:-440px;
+
+}
+.ButtonRect3 {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column; 
+    margin-left: 540px; 
+    margin-top:-440px;
+
+}
+.ButtonRect4 {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column; 
+    margin-left: 650px; 
+    margin-top:-440px;
+
+}
+.Greyrect1{
+    width:300px;
+    height:8px;
+    position: absolute;
+    background-color: #D9D9D9;
+}
+.Greyrect2{
+    width:300px;
+    height:8px;
+    position: absolute;
+    background-color: #D9D9D9;
+    left:460px;
+}
+.RectRect{
+    display: flex;
+    flex-direction: row;
+    margin-top: 630px; 
+    position: absolute; 
+}
+.RowLettersAll2{
+    display: flex; 
+    margin-top:470px;
+    margin-left:50px; 
+    position: absolute; 
+}
+.RowLetters3{
+    display: flex;
+    color:#B1B1B1;
+    font-size: 50px;
+}
+
+.RowLetters4{
+    display: flex;
+    color:#B1B1B1;
+    font-size: 50px;
+    margin-left:81px;
+}
+.RowLetters3 a.Letter,
+.RowLetters4 a.Letter {
+    margin-right: 75px; 
+}
+.ButtonRect5 {
+    margin-top:90px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px; 
+    width:40px;
+}
+
+.ButtonRect6 {
+    margin-top:-1540px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 130px; 
+    width:40px;
+}
+.ButtonRect7 {
+    margin-top:-1540px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 240px; 
+    width:40px;
+}
+.ButtonRect8 {
+    margin-top:-1540px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 650px; 
+    width:40px;
+}
+.ButtonRect9 {
+    margin-top:-1540px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 540px; 
+    width:40px;
+}
+.ButtonRect10 {
+    margin-top:-1540px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 430px; 
+    width:40px;
+}
+.RowNumbers1{
+    position:absolute;
+    display: flex;
+    flex-direction: column; 
+    margin-left:370px;
+    margin-top:135px;
+
+}
+
+.RowNumber{
+font-size:30px;
+padding-top: 77px;
+}
+.RowNumbers2{
+    position:absolute;
+    display: flex;
+    flex-direction: column; 
+    margin-left:370px;
+    margin-top:660px;
+
+}
+.RowNumber1{
+    font-size:30px;
+    padding-top: 77px;
+    margin-left:-10px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent; 
+    border-bottom: 70.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(-90deg);
+    margin-left: -90px;
+    margin-top:50px;
+}
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent; 
+    border-bottom: 70.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(-90deg);
+    margin-left: -90px;
+    margin-top:640px;
+}
+.triangle3 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent; 
+    border-bottom: 70.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(-90deg);
+    margin-left: -90px;
+    margin-top:2250px;
+}
+
+
+.triangle4 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent; 
+    border-bottom: 70.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(90deg);
+    margin-left: 770px;
+    margin-top:50px;
+}
+.triangle5 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent; 
+    border-bottom: 70.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(90deg);
+    margin-left: 770px;
+    margin-top:640px;
+}
+.triangle6 {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; 
+    border-right: 40px solid transparent; 
+    border-bottom: 70.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(90deg);
+    margin-left: 770px;
+    margin-top:2250px;
+}
+
+.WCSign {
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 70px; 
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.WCSign2 {
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 70px; 
+    margin-top:2320px;
+    margin-left:50px;
+}
+
+.WCSign3 {
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 70px; 
+    margin-top:2320px;
+    margin-left:640px;
+}
+.infoBox{
+    position: absolute;
+    /* background-color: #ffffff; */
+    width:500px;
+    height: 400px;
+    margin-top:180px;
+    margin-left: 800px;
+}
+.InfoTr{
+    border-left: 25px solid transparent; 
+    border-right: 25px solid transparent; 
+    border-bottom: 50.6px solid rgb(0, 0, 0); 
+    position:absolute;
+    transform: rotate(-90deg);
+}
+.InfoTextTr{
+    margin-top:10px;
+    font-size: 22px;
+    margin-left:60px;
+    position: absolute;
+}
+
+.InfoTextTr:before {
+
+    content: "\00B7"; 
+    margin-right: 5px; 
+}
+.InfoWCSign{
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 50px; 
+    margin-top:70px;
+
+}
+.InfoTextWC{
+    margin-top:85px;
+    font-size: 22px;
+    margin-left:60px;
+    position: absolute;
+}
+.InfoTextWC:before {
+
+    content: "\00B7"; 
+    margin-right: 5px; 
+}
+.InfoRow{
+    font-size:30px;
+    margin-top:140px;
+    margin-left:18px;
+    position: absolute; 
+}
+.InfoTextRow{
+    margin-top:145px;
+    font-size: 22px;
+    margin-left:60px;
+    position: absolute; 
+}
+.InfoTextRow:before {
+
+    content: "\00B7"; 
+    margin-right: 5px; 
+}
+.InfoColumn{
+    position: absolute; 
+    margin-top:177px;
+    color:#B1B1B1;
+    font-size: 50px;
+    left:12px;
+}
+.InfoTextColumn{
+    margin-top:195px;
+    font-size: 22px;
+    margin-left:60px;
+    position: absolute; 
+}
+.InfoTextColumn:before {
+    content: "\00B7"; 
+    margin-right: 5px; 
+}
+
+/* .PlaceButton.active {
+    background-color: #DE6A6A; Цвет кнопки при активации 
+} */
+.ContinueButton{
+    width: 125px; height: 50px; 
+    background-color: #DE6A6A;
+    color: white; 
+    font-size: 25px; 
+    cursor: pointer; 
+    border-radius:5px; 
+    border: none; 
+    position: absolute;
+    margin-left: 1400px;
+    margin-top:2650px;
+}
+.unavailable {
+    background-color: #add8e6; /* Цвет фона для недоступных кнопок */
+    cursor: not-allowed; /* Запрещаем курсору меняться при наведении */
+}

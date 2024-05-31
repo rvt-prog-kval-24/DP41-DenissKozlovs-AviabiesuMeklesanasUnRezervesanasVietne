@@ -1,0 +1,425 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+.rectangleHeader{
+  width: 100%;
+  height: 80px;
+  background-color: #FFFFFF;
+}
+.logorectangle{
+  background: #DE6A6A;
+  width: 160px;
+  height: 80px;
+  margin-left: 330px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.logorectangle a {
+  font-size: 40px;
+  color: #FFFFFF;
+
+}
+.flightName {
+  color: #0d057c;
+  font-weight: 600;
+  position: absolute;
+  left: 560px; /* Горизонтальное расположение */
+  top: 35px; /* Вертикальное расположение */
+  z-index: 15;
+}
+.CartImg{
+  width: 30px;
+  height: 30px;
+  margin-left: 75%;
+  margin-top:-2.7%;
+  position: absolute;
+  z-index: 7;
+}
+.price{
+  margin-left: 77%;
+  margin-top:-2.3%;
+  position: absolute;
+  font-size:14px;
+  font-weight: bold;
+}
+.InfoBox{
+  /* background-color: #32cd3f49; */
+  width:320px;
+  height:40px;
+  margin-left:330px;
+  margin-top: 30px;
+}
+.Info{
+  font-weight:bold;
+  color: #0d0768;
+ }
+
+ .Info2{
+  font-size:13px;
+  color: #70707a;
+}
+
+.Info3{
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 400px;
+  position: absolute;
+}
+
+.Info4{
+  font-size: 17px;
+  margin-top: 95px;
+  margin-left: 890px;
+  position: absolute;
+}
+
+.FormRectangle {
+    background-color: #ffffff;
+    width: 1000px;
+    height: 1200px;
+    margin: 200px auto 0;
+    border-radius: 5px; 
+}
+
+.Formtext1 {
+    margin-left: 340px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.Formtext2{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 65px;
+    width: 890px;
+    font-weight: bold;
+}
+.Formtext3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 65px;
+    width: 680px;
+}
+.Formtext4{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-left: 65px;
+    width: 680px;
+}
+#user-info-form {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 65px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #user-info-form label {
+    margin-bottom: 5px;
+  }
+
+  #user-info-form input,
+  #user-info-form select {
+    margin-bottom: 10px;
+  }
+
+  #user-info-form input {
+    width: 340px;
+    height: 35px;
+    /* border-radius: 15px; */
+    background: #E7E7E7;
+    border: none; 
+    outline: none; 
+    padding-left: 10px; 
+  }
+  #user-info-form input::placeholder {
+    color: #B1B1B1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px; 
+  }
+  
+  #user-info-form select {
+    color: #B1B1B1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px; 
+    width: 80px;
+    height: 35px;
+    /* border-radius: 15px; */
+    background: #E7E7E7;
+    border: none; 
+    outline: none; 
+  }
+  .Formtext5{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 65px;
+    width: 680px;
+}
+.user-info-form-lined{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 65px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+#user-info-form-lined input{
+    width: 115px;
+    height: 35px;
+    /* border-radius: 15px; */
+    border-radius: 0px;
+    background: #E7E7E7;
+    border: none; 
+    outline: none; 
+}
+#user-info-form-lined {
+    display: flex;
+    flex-direction: row; 
+  }
+  
+  .form-group {
+    margin-right: 20px; 
+  }
+  
+  .form-group label {
+    display: block; 
+    margin-bottom: 5px; 
+  }
+  
+  .form-group input {
+    width: 150px; 
+  }
+  .submitButton{
+    width:655px;
+    height: 80px;
+    border-radius: 15px;
+    color: #fcfcfc;
+    background: #DE6A6A;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 180px;
+    font-weight: bold;
+    border: none; 
+    outline: none; 
+    position: absolute;
+    margin-top:320px;
+  }
+  .infotext{
+    color: #F30000;
+    font-size: 15.6px;
+    margin-left: 185px;
+    margin-top:420px;
+    position: absolute;
+  }
+footer {
+    width: 100%; 
+    margin-top: 70px;
+    background-color: #333;
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-family:'Nunito Sans', sans-serif;
+}
+
+
+  
+  .footer-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0;
+  }
+  .footer-content a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  .user-info-form2-lined{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 65px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+#user-info-form2-lined input{
+    width: 115px;
+    height: 35px;
+    /* border-radius: 15px; */
+    border-radius: 0px;
+    background: #E7E7E7;
+    border: none; 
+    outline: none; 
+}
+#user-info-form2-lined {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  #user-info-form2 {
+    font-size: 20px;
+    margin-top: -299px;
+    margin-left: 550px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  #user-info-form2 label {
+    margin-bottom: 5px;
+  }
+
+  #user-info-form2 input,
+  #user-info-form2 select {
+    margin-bottom: 10px;
+  }
+
+  #user-info-form2 input {
+    width: 340px;
+    height: 35px;
+    /* border-radius: 15px; */
+    background: #E7E7E7;
+    border: none; 
+    outline: none; 
+    padding-left: 10px; 
+  }
+  #user-info-form2 input::placeholder {
+    color: #B1B1B1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px; 
+  }
+  
+  #user-info-form2 select {
+    color: #B1B1B1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px; 
+    width: 80px;
+    height: 35px;
+    /* border-radius: 15px; */
+    background: #E7E7E7;
+    border: none; 
+    outline: none; 
+  }
+  .Formtext6{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 550px;
+    width: 270px;
+    margin-top:-365px;
+    position: absolute;
+}
+.Formtext7{
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 35px;
+  margin-left: 65px;
+  width: 680px;
+  position:absolute;
+}
+
+
+.user-info-form3-lined{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 65px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+#user-info-form3-lined input{
+  width: 115px;
+  height: 35px;
+  /* border-radius: 15px; */
+  border-radius: 0px;
+  background: #E7E7E7;
+  border: none; 
+  outline: none; 
+}
+#user-info-form3-lined {
+  display: flex;
+  flex-direction: row; 
+}
+
+#user-info-form3 {
+  font-size: 20px;
+  margin-top: 85px;
+  margin-left: 65px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+}
+
+#user-info-form3 label {
+  margin-bottom: 5px;
+}
+
+#user-info-form3 input,
+#user-info-form3 select {
+  margin-bottom: 10px;
+}
+
+#user-info-form3 input {
+  width: 340px;
+  height: 35px;
+  /* border-radius: 15px; */
+  background: #E7E7E7;
+  border: none; 
+  outline: none; 
+  padding-left: 10px; 
+}
+#user-info-form3 input::placeholder {
+  color: #B1B1B1;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px; 
+}
+
+#user-info-form3 select {
+  color: #B1B1B1;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px; 
+  width: 80px;
+  height: 35px;
+  /* border-radius: 15px; */
+  background: #E7E7E7;
+  border: none; 
+  outline: none; 
+}
+

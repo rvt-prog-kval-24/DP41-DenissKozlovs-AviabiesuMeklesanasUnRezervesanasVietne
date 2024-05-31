@@ -1,0 +1,492 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFEF;
+}
+
+/* .month {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+.month h3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.id{
+    display: none;
+}
+.eurosign{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top:35px;
+}
+.days {
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+.day {
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.day:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.rectangleHeader{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+.logorectangle{
+    background: #DE6A6A;
+    width: 160px;
+    height: 80px;
+    margin-left: 330px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.logorectangle a {
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+.flightName {
+    color: #0d057c;
+    font-weight: 600;
+    position: fixed;
+    left: 560px; /* Горизонтальное расположение */
+    top: 35px; /* Вертикальное расположение */
+    z-index: 15;
+}
+.Info3 {
+    color: black;
+    z-index: 21;
+    margin-left: 840px;
+    font-weight: 600;
+    position: fixed; 
+    /* top: -485px;  */
+    font-size: 18px; 
+    width:300px;
+    height:30px;
+    left: -20px; /* Горизонтальное расположение */
+    top: 130px; /* Вертикальное расположение */
+}
+
+
+.scrollable-box {
+    background-color: #f0f0f0;
+    width: 370px;
+    height: 750px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 330px;
+}
+
+
+
+.calendar {
+    width: 300px; 
+    max-height: 100%; 
+    overflow: auto; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.month {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.scrollable-box {
+    background-color: #f0f0f0; 
+}
+
+
+.infoText{
+    
+    width:372px;
+    height:90px;
+    margin-left: 330px;
+}
+.infoText .Info1 {
+    position: relative; 
+    top: 25px;
+    font-weight: 600;
+}
+
+.infoText .Info2 {
+    display: block; 
+    margin-top: 25px;
+    font-size: 14px;
+    color: #afafaf;
+}
+.greyRectangle{
+    background-color: #d1d1d1; 
+    width:2px;
+    height:820px;
+    margin-left: 705px;
+    z-index: 20;
+    margin-top:-830px;
+}
+.greyRectangle2{
+    background-color: #d1d1d1; 
+    width:2px;
+    height:550px;
+    margin-left: 1200px;
+    z-index: 20;
+    margin-top:-821px;
+}
+.greyRectangle3{
+    background-color: #d1d1d1; 
+    width:400px;
+    height:2px;
+    margin-left: 756px;
+    margin-top:-450px;
+}
+
+
+.ticketForm {
+    background-color: #FAFAFA;
+    width: 400px;
+    height: 100px;
+    /* margin-left: 756px; */
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+.ticketPlace {
+    margin-top:20px;
+    /* background-color: #85ffa3; */
+    width: 430px;
+    height: 400px;
+    margin-left: 750px;
+    overflow-y: scroll; 
+    max-height: 400px; 
+    /* border: 1px solid #ccc;  */
+    align-items: center;
+    justify-content: center;
+}
+
+.ticketPlace::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.ticketPlace::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 86, 114); 
+    border-radius: 10px; 
+}
+
+.ticketPlace::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 10px; 
+}
+.StyleRect {
+    display: flex; 
+    margin-left:90px;
+    margin-top:-80px;
+}
+
+/* .grey2 {
+    background-color: #BDBDBD;
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+.grey1 {
+    background-color: #BDBDBD;
+    width: 60px;
+    height: 5px;
+    border-radius: 10px;
+ 
+
+} */
+
+
+.line1 {
+    background-color: #BDBDBD;
+    width: 120px;
+    height: 2px;
+    margin-top:45px;
+    margin-left:0px;
+    display: flex;
+    position: absolute;
+    top: 0; 
+}
+
+ /* .time {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 10px;
+} */
+
+.timeGap {
+    width: 140px;
+} 
+
+.time {
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 0; 
+    left:30px;
+    margin-top:35px;
+
+}
+.allParts {
+    position: absolute;
+    font-size: 12px;
+    color: rgba(13, 5, 124, 0.5); /* Цвет с прозрачностью */
+    margin-left: 15px;
+    margin-top: 80px;
+}
+
+
+.ticketForm {
+    position: relative; 
+    font-family: 'Nunito Sans', sans-serif;
+    /* padding-top: 30px;  */
+}
+.ITADA{
+    color: #BDBDBD;
+    font-size: 13px;
+    margin-top:60px;
+    left: 44px;
+    display: flex;
+    position: absolute;
+    top: 0; 
+    font-weight:bold ;
+}
+.ITADAGap{
+    width: 165px;
+}
+.direction{
+    padding:3px;
+    position: absolute;
+    top: 0; 
+    left:108px; 
+    top:50px;
+    font-size: 13px;
+    background-color: #d7ebc1;
+    color: #7c9155;
+    font-weight:bold ;
+}
+.line2{
+    background-color: #BDBDBD;
+    width: 2px;
+    height: 100px;
+    margin-top:0px;
+    margin-left:300px;
+    display: flex;
+    position: absolute;
+    top: 0; 
+}
+.Price{
+    color: #0d057c;
+    display: flex;
+    position: absolute;
+    margin-left:330px;
+    font-weight:bold ;
+    margin-top: 50px;
+    font-size: 19px;
+}
+.NOPrice{
+    color: #0d057c;
+    display: flex;
+    position: absolute;
+    margin-left:340px;
+    margin-top: 25px;
+}
+.wayTime{
+    position: absolute;
+    top: 0; 
+    left:113px;
+    font-size:15px;
+    margin-top:22px;
+    color: #949494;
+}
+.ButtonPlace{
+    width:405px;
+    height: 100px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top:0px;
+    left:756px;
+    top:640px;
+    border-radius: 7px;
+  
+}
+/* display: none; */
+.ContinueButton {
+    left:270px;
+    top:25px;
+    position: absolute;
+    background-color: #DE6A6A;
+    border: none; 
+    padding: 15px 25px; 
+    text-align: center; 
+    display: inline-block; 
+    text-decoration: none; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    
+}
+.PricePlace{
+    position: absolute;
+    top:35px;
+    left:25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+form {
+    display: contents; /* невидимая форма */
+}
+.buttonForm{
+    display: contents; /* невидимая форма */
+}
+.ChosenDate{
+    color: #0d057c;
+    position: absolute;
+    top:53px;
+    left:560px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1001; 
+}
+/* #popup.CloseButton{
+    background-color: rgba(0, 0, 0, 0.5); 
+} */
+
+#popupContent {
+    text-align: left;
+    line-height: 1.5;
+}
+
+#popupContent div {
+    margin-bottom: 10px;
+}
+
+.AddInfoBox{
+    position: absolute;
+    width:350px;
+    height:400px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left:1250px;
+    margin-top:-450px;
+    border: 1px solid #ccc;
+}
+.changes input[type="text"],
+.changes input[type="number"] {
+    z-index: 1;
+    width: 260px;
+    border: 1px solid rgb(224, 224, 224); 
+    background-color: rgb(245, 245, 245); 
+    padding: 8px;
+    margin-left:35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  
+}
+.changes{
+    margin-top:75px;
+    
+}
+.upload_changes button{
+    position: absolute;   
+    color: #ffffff;
+    width:278px;
+    height: 35px;
+    margin-left: 35px;
+    background-color: #DE6A6A;
+    font: inherit; 
+    cursor: pointer; 
+    outline: none; 
+    border: none; 
+    border-radius:5px;
+}
+.InfoText5{
+   position: absolute; 
+   font-size: 17px;
+   font-weight: 600;
+   margin-top: -60px;
+   width:320px;
+   margin-left:25px;
+   
+}
+.PrevPage {
+
+    transform: translateY(30px); 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: #DE6A6A;
+    text-decoration: none;
+    position:absolute;
+}
+.input-main-page{
+    margin-top: -195px;
+    z-index: 999;
+    position:absolute;
+    width: 100px;
+    margin-left: 40px;
+}

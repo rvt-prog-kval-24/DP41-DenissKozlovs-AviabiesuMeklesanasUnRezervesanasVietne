@@ -1,0 +1,58 @@
+#linkBox {
+    margin-bottom: 200px;
+    margin-left: 350px;
+    margin-top: -420px; 
+    width: 230px; 
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.text_area {
+    font-size: 25px;
+    width: 1000px; 
+    top: 0; 
+    right: 0; 
+    padding: 20px; 
+    margin-right: 0px; 
+    margin-left: 700px;
+}
+
+
+/* Стиль для ссылки */
+#linkBox a {
+    display: block; 
+    margin-bottom: 5px; 
+    text-decoration: none; 
+    color: #333; 
+    font-size: 25px;
+}
+footer {
+    background-color: #333;
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-family:'Nunito Sans', sans-serif;
+    margin-top: 1080px;
+  }
+  
+  .footer-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  .social-links a {
+    color: #fff; 
+    text-decoration: none; 
+  }
+
+
+.title1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc; 
+    margin-left: 20px; 
+}
