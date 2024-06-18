@@ -18,7 +18,7 @@
             const alertMessage = urlParams.get('alert');
 
             if (alertMessage) {
-                // alert(alertMessage);
+               
                 swal({
                 title: "Attention!",
                 text: decodeURIComponent(alertMessage),
@@ -33,31 +33,20 @@
         <a>AVIA</a>
     </div>
 
-    <!-- <ul> -->
+
     <div class='ButtonRect'>
-        <!-- <a href="../php/Buy_Tickets.php">Buy Tickets</a> -->
+  
         <a href="">Airline Partners</a>
-        <!-- <a href="../html/AboutUs.html">About us</a>
-        <a href="../php/flightInfo.php">Some page</a> -->
+
         <a href="">About us</a>
         <a href="">Travel Tips</a> 
         <a href="../php/reviews.php">Reviews</a>
         <?php
           session_start();
-          // if ($_SESSION['user_id'] === 0 || ($_SESSION['admin_id'] === 1 and $_SESSION['user_id'] === 1)) {
-          //   echo '<a href="../html/autorization.html" class="custom-btn LogIn">LOG IN</a>';
-          //   echo '<a href="../html/registration.html" class="custom-btn LogIn">Sign up</a>';
-          // }
+
         ?>
     </div>   
-    <!-- <select id='language-selector' class='dropdown-menu'>
-      <option class='dropdown-menu-content' value="ru">RU</option>
-      <option class='dropdown-menu-content' value="lv">LV</option>
-      <option class='dropdown-menu-content' value="en">ENG</option>
-    </select> -->
-    <!-- <div class='dropdown-menu' id="google_translate_element"></div> -->
 
-    <!-- </ul> -->
   <div class='greyRect1'></div>
   <div class='rectangleHeader2'></div>
   <div class='greyRect1'></div>
@@ -69,38 +58,12 @@
         <a href="">Need Help?</a>
   </div>
 </div>
-<!-- <nav> -->
-<!-- 
-  <div class='boxdiv'>
-    <ul>
 
-      <li><a href="../php/Buy_Tickets.php">buy tickets</a></li>
-      <li><a href="../html/AboutUs.html">About us</a></li>
-      <li><a href="../php/flightInfo.php">Some page</a></li>
-      <li><a href="../php/reviews.php">service reviews</a></li>
-      <?php
-        // session_start();
-        // if ($_SESSION['user_id'] === 0 || ($_SESSION['admin_id'] === 1 and $_SESSION['user_id'] === 1)) {
-        //   echo '<li><a href="../html/autorization.html" class="custom-btn LogIn">LOG IN</a></li>';
-        //   echo '<li><a href="../html/registration.html" class="custom-btn LogIn">Sign up</a> </li>';
-        // }
-      ?>
-     <select id='language-selector' class='dropdown-menu'>
-      <option class='dropdown-menu-content' value="ru">RU</option>
-      <option class='dropdown-menu-content' value="lv">LV</option>
-      <option class='dropdown-menu-content' value="en">ENG</option>
-    </select> -->
-    <!-- <div class='dropdown-menu' id="google_translate_element"></div> -->
-
-    <!-- </ul>
-  </div> -->
-  
-  <div class='pict5'>
   <?php
 
-    // была ли страница открыта первый раз или была перенаправлена с другой страницы
+   
     if (!isset($_SESSION['page_opened']) || !$_SESSION['page_opened'] || !isset($_SERVER['HTTP_REFERER']) || empty($_SERVER['HTTP_REFERER'])) {
-        $_SESSION['page_opened'] = true; // отмечаю страницу открытой
+        $_SESSION['page_opened'] = true; 
         $_SESSION['user_id'] = 0; 
         $_SESSION['admin_id'] = 0; 
     }
@@ -115,58 +78,82 @@
     $result = $mysqli->query($sql);
 
     if ($_SESSION['admin_id'] == 1) {
-        echo '<div class="UserImgBox">
-                  <div class="TextElemment">Log in/Register</div>
-              </div>
-            <p><a class="special-link" href="user_info.php"><img src="../images/user_foto.png"  width="70" height="70"></a></p>';
-    } elseif ($_SESSION['user_id'] == 0) {
-        echo '<div class="UserImgBox">
+      echo '<div class="UserImgBox" onclick="location.href=\'user_info.php\';">
+                <div class="TextElemment">Hello Admin</div>
+                <img src="../images/user_foto.png" width="70" height="70">
+            </div>';
+  } elseif ($_SESSION['user_id'] == 0) {
+      echo '<div class="UserImgBox" onclick="location.href=\'../html/autorization.html\';">
                 <div class="TextElemment">Log in/Register</div>
-              </div>
-            <p><a class="special-link" href="../html/autorization.html"><img src="../images/user_foto.png"  width="70" height="70"></a></p>';
-    } elseif ($result && $result->num_rows > 0) {
-        $row = $result->fetch_array();
-
-        $profile_image = $row['profile_image'];
-        echo '<div class="UserImgBox2">
-                  <div class="TextElemment">Your profile</div>
-              </div>
-        <div class="special-link2" style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center; margin-top: 12px;">';
-        echo '<a href="user_info.php" ><img src="data:image/jpeg;base64,' . base64_encode($profile_image) . '" width="70" height="65" /></a>';
-        echo '</div>';
-    } else {
-        echo '<div class="UserImgBox3">
+                <img src="../images/user_foto.png" width="70" height="70">
+            </div>';
+  } elseif ($result && $result->num_rows > 0) {
+      $row = $result->fetch_array();
+      $profile_image = $row['profile_image'];
+      echo '<div class="UserImgBox2" onclick="location.href=\'user_info.php\';">
                 <div class="TextElemment">Your profile</div>
-            </div>
-        <p><a class="special-link" href="user_info.php"><img src="../images/user_foto.png"  width="70" height="70"></a></p>';
-    }
-    // echo $_SESSION['user_id'];
-    // echo $_SESSION['admin_id'];
-
+                <div class = "imgdiv"style="width: 45px; height: 45px; border-radius: 50%; overflow: hidden; display: flex; justify-content: center; align-items: center; ">
+                    <img src="data:image/jpeg;base64,' . base64_encode($profile_image) . '" width="70" height="65">
+                </div>
+            </div>';
+  } else {
+      echo '<div class="UserImgBox3" onclick="location.href=\'user_info.php\';">
+                <div class="TextElemment">Your profile</div>
+                <img src="../images/user_foto.png" width="70" height="70">
+            </div>';
+  }
   
     $mysqli->close();
-    // echo '<p><a class="special-link4" href=""><img src="../images/messageFalse.png"  width="34" height="34"></a></p>';
-    // echo '<p><a class="special-link4" href=""><img src="../images/messageTrue.png"  width="34" height="34"></a></p>';
+
 ?>
 
     
   </div>
-
-<!-- </nav> -->
 
 <div class='SearchBox'>
     <div class="search">
         <form method="GET" action="../php/FilteredTickets.php">
             <div class="box1-input" style="">
                 <div class="input-data">
-                    <input type="text" id="input" name="SearchRoute" placeholder="Riga-Paris">
                     <label for="input-field">Enter the route:</label>
+                    <select id="flightname" name="SearchRoute">
+                            <option value="">Select Airline</option>
+                            <?php
+                            
+                            include 'dbconfig.php';
+                            $sql_airline = "SELECT DISTINCT Airline FROM `airports/airlines`";
+                            $result_airlines = $mysqli->query($sql_airline);
+                            if ($result_airlines->num_rows > 0) {
+                                while ($row = $result_airlines->fetch_assoc()) {
+                                    echo '<option value="' . $row["Airline"] . '">' . $row["Airline"] . '</option>';
+                                }
+                            } else {
+                                echo '<option value="">No Airlines Available</option>';
+                            }
+                            ?>
+                        </select>
+
                 </div>
             </div>
             <div class="box2-input">
                 <div class="input-data">
-                    <input type="text" name="SearchCountry" placeholder="France">
                     <label for="input-field">Choose country:</label>
+                    <select name="SearchCountry">
+                            <option value="">Select Country</option>
+                            <?php
+                           
+                            $sql_country = "SELECT DISTINCT country FROM `airports/airlines`";
+                            $result_countries = $mysqli->query($sql_country);
+                            if ($result_countries->num_rows > 0) {
+                                while ($row = $result_countries->fetch_assoc()) {
+                                    echo '<option value="' . $row["country"] . '">' . $row["country"] . '</option>';
+                                }
+                            } else {
+                                echo '<option value="">No Countries Available</option>';
+                            }
+                            ?>
+                        </select>
+
                 </div>
             </div>
             <div class="box3-input">
@@ -223,32 +210,16 @@
     </div>
     <script src="../JS/BigSwiper.js"></script>
 <div class='GreyRect'></div>
-<!-- <body bgcolor="#e9a2a2"> -->
-<!-- <body bgcolor="FFFFFF"> -->
-
-<!-- <div class="pict3"><img src="../images/pexels-arina-krasnikova-5708951.jpg"></div> -->
-<!-- <p class="txt1">EXPLORE THE WORLD WITH US</p> -->
-
-
-
-
-
-  <?php 
-  // include 'card_data.php'; 
-  ?>
-
-
-
 
 <div class=rect1></div>
-<!-- <div class="pict4"><img src="../images/bgSales.png"></div> -->
+
  <style>
 </style>
-<!-- <p class="txt2">Don't miss out on hot discounts!!</p> -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-<!-- <div class= "txt3">Travel comfortably with us.</div> -->
+
 <div class="swiper sample-slider" style="margin-top: 850px;">
         <div class="swiper-wrapper">
             <div class="swiper-slide" ><a href=""><img src="../images/1card.png"></a>

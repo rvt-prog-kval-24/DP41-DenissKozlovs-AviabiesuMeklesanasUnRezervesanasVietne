@@ -112,10 +112,13 @@ class Registration {
         // }
 
       
-        $this->mysqli->close();
+        // $this->mysqli->close();
 
-       
-        header('Location: ../php/index.php');
+        session_start();
+        $_SESSION['user_id'] = $this->mysqli->insert_id; 
+        $_SESSION['username'] = $login;
+
+        header("Location: ../php/index.php");
     }
 
     private function isUserExists($field, $value) {

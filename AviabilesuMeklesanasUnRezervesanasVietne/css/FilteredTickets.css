@@ -6,7 +6,7 @@ body {
 }
 .ButtonRect {
   position: absolute;
-  padding: 0; /* Убираем отступы внутри .ButtonRect */
+  padding: 0; 
   margin-left: 550px;
   margin-top:-55px;
 }
@@ -14,7 +14,7 @@ body {
 .ButtonRect a {
   font-size:20px;
   display: inline-block;
-  margin-right: 35px; /* Добавляем отступ между элементами a */
+  margin-right: 35px; 
   text-decoration: none;
   color: #0D057C;
 }
@@ -36,6 +36,23 @@ body {
   font-size: 40px;
   color: #FFFFFF;
 
+}
+.input-data  select {
+  z-index: 1;
+  position: absolute;
+  border: 1px solid #afafaf;
+  background-color: rgb(245, 245, 245); 
+  padding: 8px;
+  width:250px;
+margin-top:-5px;
+}
+.input-data  input {
+
+  border: 1px solid #afafaf;
+  background-color: rgb(245, 245, 245); 
+  padding: 8px;
+  width:250px;
+margin-top:-5px;
 }
 .BackButton{
      text-decoration: none;
@@ -59,6 +76,7 @@ body {
     height: 980px;
 
 }
+
 .modal {
   display: none;
   position: fixed;
@@ -76,11 +94,11 @@ body {
   margin-top: 5px;
   display: flex;
   flex-direction: column;
-  gap: 5px; /* Добавляет промежуток между кнопками */
+  gap: 5px; 
 }
 
 .changebtn1 {
-  margin-bottom: 5px; /* Добавляет промежуток между кнопками, если gap не используется */
+  margin-bottom: 5px; 
 }
 
 .modal-content {
@@ -102,7 +120,7 @@ body {
 }
 
 .Ticket_card {
-    margin: 10px; /* мб переделать отступ между карточками */
+    margin: 10px; 
     background-color: #ffffff;
     width: 450px;
     height: 440px;

@@ -4,13 +4,10 @@ include 'dbconfig.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['airline_id'])) {
     $_SESSION['airline_id'] = $_POST['airline_id'];
-    // echo $_SESSION['airline_id'];
-    // setcookie('airline_id', $_SESSION['airline_id'], time() + 86400, "/");
+
 }
 
-// else {
-//     $_SESSION['airline_id'] = null;
-// }
+
 
 class ChooseFlight {
     private $mysqli;
@@ -42,7 +39,7 @@ class ChooseFlight {
             $arrival_time = $_POST['arrival_time'];
             $price = $_POST['price'];
 
-            $alert = ''; // alert переменная
+            $alert = ''; 
 
             if (mb_strlen($departure_date) < 1 || mb_strlen($departure_date) > 11) {
                 $alert = 'Incorrect departure date';
@@ -80,26 +77,79 @@ class ChooseFlight {
     }
 
     public function generateCalendar() {
-        $months = [
-            "January 2024", "February 2024", "March 2024", "April 2024",
-            "May 2024", "June 2024", "July 2024", "August 2024",
-            "September 2024", "October 2024", "November 2024", "December 2024"
+        $latvianHolidays = [
+            '01-01' => 'New Year\'s Day',
+            '04-18' => 'Good Friday',
+            '04-20' => 'Second Easter Day',
+            '05-01' => 'Labour Day',
+            '05-04' => 'Restoration of Independence of Latvia',
+            '06-23' => 'Midsummer Eve',
+            '06-24' => 'Midsummer Day',
+            '11-18' => 'Proclamation Day of the Republic of Latvia',
+            '12-24' => 'Christmas Eve',
+            '12-25' => 'Christmas Day',
+            '12-26' => 'Second Christmas Day',
+            '12-31' => 'New Year\'s Eve'
         ];
-
-        foreach ($months as $month) {
+    
+        $currentMonth = date('n');
+        $currentYear = date('Y');
+        $currentDay = date('j');
+        $today = strtotime(date('Y-m-d')); 
+    
+        $months = [];
+        for ($i = 0; $i < 12; $i++) {
+            $month = ($currentMonth + $i - 1) % 12 + 1;
+            $year = $currentYear + intdiv($currentMonth + $i - 1, 12);
+            $months[] = [
+                'month' => $month,
+                'year' => $year,
+                'daysInMonth' => cal_days_in_month(CAL_GREGORIAN, $month, $year)
+            ];
+        }
+    
+        foreach ($months as $m) {
+            $monthName = date('F Y', mktime(0, 0, 0, $m['month'], 1, $m['year']));
             echo "<div class='month'>";
-            echo "<h3>$month</h3>";
+            echo "<h3>$monthName</h3>";
             echo "<div class='days'>";
-            $daysInMonth = cal_days_in_month(CAL_GREGORIAN, array_search($month, $months) + 1, 2024);
-            for ($i = 1; $i <= $daysInMonth; $i++) {
-                echo "<form method='POST' class='day-form'>";
-                echo "<input type='hidden' name='showDate' value='2024-" . sprintf("%02d", array_search($month, $months) + 1) . "-" . sprintf("%02d", $i) . "'>";
-                echo "<button type='submit' class='day'>$i</button>";
-                echo "</form>";
+    
+            for ($i = 1; $i <= $m['daysInMonth']; $i++) {
+                $dayOfWeek = date('N', strtotime("{$m['year']}-{$m['month']}-$i"));
+                $isWeekend = ($dayOfWeek == 6 || $dayOfWeek == 7);
+                $isCurrentDay = ($m['month'] == date('n') && $m['year'] == date('Y') && $i == $currentDay);
+                $dateKey = sprintf("%02d-%02d", $m['month'], $i);
+                $isHoliday = isset($latvianHolidays[$dateKey]);
+                $holidayName = $isHoliday ? $latvianHolidays[$dateKey] : '';
+    
+                $date = strtotime("{$m['year']}-{$m['month']}-$i");
+    
+                if ($date < $today) {
+                    echo "<div class='day past' title='$holidayName'>$i</div>";
+                } else {
+                    echo "<form method='POST' class='day-form'>";
+                    echo "<input type='hidden' name='showDate' value='{$m['year']}-" . sprintf("%02d", $m['month']) . "-" . sprintf("%02d", $i) . "'>";
+                    if ($isCurrentDay) {
+                        echo "<button type='submit' class='day current' title='$holidayName'>$i</button>";
+                    } elseif ($isWeekend) {
+                        echo "<button type='submit' class='day weekend' title='$holidayName'>$i</button>";
+                    } elseif ($isHoliday) {
+                        echo "<button type='submit' class='day holiday' title='$holidayName'>$i</button>";
+                    } else {
+                        echo "<button type='submit' class='day'>$i</button>";
+                    }
+                    echo "</form>";
+                }
             }
+    
             echo "</div></div>";
         }
     }
+    
+    
+    
+    
+    
 
     public function OutputFlight() {
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['showDate'])) {
@@ -176,7 +226,7 @@ class ChooseFlight {
                                         <div class='ITADAGap'></div>
                                         <div class='arrivITADA'>$ITADA</div>
                                     </div>
-                                    <div class='NOPrice'>no</div>
+                                    <div class='NOPrice'>From</div>
                                     <div class='Price'>$T_price €</div>
                                     <div class='direction'>Direct flight</div>
                                     <a class='allParts' style='cursor: pointer;' onclick='openPopup(\"$country\", \"$City\", \"$airport_name\", \"$ITADA\", \"$departure_date\", \"$arrival_date\", \"$departure_time\", \"$arrival_time\", \"$T_price\")'>Flight details</a>
